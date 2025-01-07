@@ -1,5 +1,7 @@
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+
+import javax.management.JMException;
 import javax.swing.JFrame;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
@@ -20,7 +22,7 @@ public class GUI implements ActionListener{
 
     //top menuBar
     JMenuBar menuBar;
-    JMenu menuFile, menuFormat, menuEdit, menuColor;
+    JMenu menuFile, menuFormat, menuEdit, menuColor, menuWebScraper;
 
     //fileMenu
     JMenuItem iNew, iOpen, iSave, iExit;
@@ -47,8 +49,9 @@ public class GUI implements ActionListener{
     KeyHandler kHandler = new KeyHandler(this);
 
 
-
-
+    //web scraper
+    Function_WebScraper ws = new Function_WebScraper(this);
+    JMenuItem iSIBA, iTimes;
 
 
 
@@ -63,7 +66,8 @@ public class GUI implements ActionListener{
     createFileMenu();
     createFormatMenu();
     createColorMenu();
-    createEditMenu(); 
+    createEditMenu();
+    createWebScraperMenu();
     format.selectedFont = "Arial";
     format.font(22);
     color.setColor("White");
@@ -107,6 +111,10 @@ public class GUI implements ActionListener{
 
     menuColor = new JMenu("Color");
     menuBar.add(menuColor);
+
+    menuWebScraper = new JMenu("Web Scraper");
+    menuBar.add(menuWebScraper);
+  
    }
 
    public void createFileMenu(){
@@ -239,6 +247,21 @@ public class GUI implements ActionListener{
     menuEdit.add(iRedo);
 
    }
+
+   public void createWebScraperMenu(){
+    iSIBA = new JMenuItem("SIBA Links");
+    iSIBA.addActionListener(this);
+    iSIBA.setActionCommand("SIBA Links");
+    menuWebScraper.add(iSIBA);
+
+    iTimes = new JMenuItem("Python Learning Links");
+    iTimes.addActionListener(this);
+    iTimes.setActionCommand("Python Learning Links");
+    menuWebScraper.add(iTimes);
+
+
+   }
+
    @Override
     public void actionPerformed(ActionEvent e) {
         String command = e.getActionCommand();
@@ -328,6 +351,13 @@ public class GUI implements ActionListener{
             edit.redo();
             break;
 
+            case "SIBA Links":
+            ws.SIBALinks();
+            break;
+
+            case "Python Learning Links":
+            ws.pythonLinks();
+            break;
 
      }
     } 

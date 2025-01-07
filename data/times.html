@@ -1,0 +1,1877 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="https://schema.org/WebPage">
+    <head> 
+                        <title>How to Run Python Scripts: A Step-by-Step Guide </title>
+                <meta name="description" content="This step-by-step guide provides beginners with the essential knowledge and techniques on how to run Python scripts on your computer." />
+                        <!-- Site Info -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+                    <meta name="keywords" content="How to Run Python Scripts, run python scripts" />
+            
+        <meta name="author" content="TheKnowledgeAcademy" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes"> 
+        <meta name="google-site-verification" content="NiU_E6fmXG7ve7-obcQ23s3SRyBEarfVnt7ysqiMqBg" />
+        <meta name="facebook-domain-verification" content="ydtqqtf3847bmwx5tmuaf3p3cszg0e" />
+        <meta name="theme-color" content="#002353" />
+        <meta name="msvalidate.01" content="0EA080D4814C86EDCBB1A292B78C07AE" />
+        <meta property="og:title" content="How to Run Python Scripts: A Step-by-Step Guide " />
+        <meta property="og:description" content="This step-by-step guide provides beginners with the essential knowledge and techniques on how to run Python scripts on your computer." />
+        <meta property="og:url" content="https://www.theknowledgeacademy.com/blog/how-to-run-python-scripts/" />
+        <meta property="og:image" content="https://www.theknowledgeacademy.com/_public/images/home/tka-blue.svg" alt="tka-blue" />
+        <!-- fav --> 
+        <link rel="icon" href="https://www.theknowledgeacademy.com/favicon.ico" type="image/x-icon" />
+        <link async defer="defer" type="text/css" rel="stylesheet" href="https://www.theknowledgeacademy.com/app/stylesheets/critical.css?t=25-01-07" media="all">
+        <link rel="canonical" href="https://www.theknowledgeacademy.com/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-gb" href="https://www.theknowledgeacademy.com/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-af" href="https://www.theknowledgeacademy.com/af/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-al" href="https://www.theknowledgeacademy.com/al/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-dz" href="https://www.theknowledgeacademy.com/dz/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-ad" href="https://www.theknowledgeacademy.com/ad/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-ao" href="https://www.theknowledgeacademy.com/ao/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-ar" href="https://www.theknowledgeacademy.com/ar/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-am" href="https://www.theknowledgeacademy.com/am/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-aw" href="https://www.theknowledgeacademy.com/aw/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-au" href="https://www.theknowledgeacademy.com/au/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-at" href="https://www.theknowledgeacademy.com/at/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-az" href="https://www.theknowledgeacademy.com/az/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-bs" href="https://www.theknowledgeacademy.com/bs/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-bh" href="https://www.theknowledgeacademy.com/bh/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-bd" href="https://www.theknowledgeacademy.com/bd/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-bb" href="https://www.theknowledgeacademy.com/bb/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-by" href="https://www.theknowledgeacademy.com/by/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-be" href="https://www.theknowledgeacademy.com/be/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-bz" href="https://www.theknowledgeacademy.com/bz/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-bj" href="https://www.theknowledgeacademy.com/bj/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-bm" href="https://www.theknowledgeacademy.com/bm/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-bo" href="https://www.theknowledgeacademy.com/bo/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-ba" href="https://www.theknowledgeacademy.com/ba/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-bw" href="https://www.theknowledgeacademy.com/bw/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-br" href="https://www.theknowledgeacademy.com/br/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-bn" href="https://www.theknowledgeacademy.com/bn/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-bg" href="https://www.theknowledgeacademy.com/bg/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-bf" href="https://www.theknowledgeacademy.com/bf/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-bi" href="https://www.theknowledgeacademy.com/bi/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-kh" href="https://www.theknowledgeacademy.com/kh/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-cm" href="https://www.theknowledgeacademy.com/cm/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-ca" href="https://www.theknowledgeacademy.com/ca/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-ky" href="https://www.theknowledgeacademy.com/ky/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-cl" href="https://www.theknowledgeacademy.com/cl/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-cn" href="https://www.theknowledgeacademy.com/zh/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-co" href="https://www.theknowledgeacademy.com/co/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-cr" href="https://www.theknowledgeacademy.com/cr/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-hr" href="https://www.theknowledgeacademy.com/hr/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-cu" href="https://www.theknowledgeacademy.com/cu/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-cy" href="https://www.theknowledgeacademy.com/cy/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-cz" href="https://www.theknowledgeacademy.com/cz/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-dk" href="https://www.theknowledgeacademy.com/dk/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-do" href="https://www.theknowledgeacademy.com/do/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-ec" href="https://www.theknowledgeacademy.com/ec/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-eg" href="https://www.theknowledgeacademy.com/eg/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-sv" href="https://www.theknowledgeacademy.com/sv/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-ee" href="https://www.theknowledgeacademy.com/ee/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-et" href="https://www.theknowledgeacademy.com/et/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-fj" href="https://www.theknowledgeacademy.com/fj/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-fi" href="https://www.theknowledgeacademy.com/fi/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-fr" href="https://www.theknowledgeacademy.com/fr/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-ga" href="https://www.theknowledgeacademy.com/ga/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-gm" href="https://www.theknowledgeacademy.com/gm/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-ge" href="https://www.theknowledgeacademy.com/ge/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-de" href="https://www.theknowledgeacademy.com/de/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-gh" href="https://www.theknowledgeacademy.com/gh/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-gi" href="https://www.theknowledgeacademy.com/gi/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-gr" href="https://www.theknowledgeacademy.com/gr/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-gl" href="https://www.theknowledgeacademy.com/gl/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-gd" href="https://www.theknowledgeacademy.com/gd/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-gt" href="https://www.theknowledgeacademy.com/gt/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-gn" href="https://www.theknowledgeacademy.com/gn/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-gy" href="https://www.theknowledgeacademy.com/gy/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-ht" href="https://www.theknowledgeacademy.com/ht/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-hn" href="https://www.theknowledgeacademy.com/hn/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-hk" href="https://www.theknowledgeacademy.com/hk/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-hu" href="https://www.theknowledgeacademy.com/hu/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-is" href="https://www.theknowledgeacademy.com/is/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-in" href="https://www.theknowledgeacademy.com/in/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-id" href="https://www.theknowledgeacademy.com/id/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-ir" href="https://www.theknowledgeacademy.com/ir/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-ie" href="https://www.theknowledgeacademy.com/ie/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-il" href="https://www.theknowledgeacademy.com/il/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-it" href="https://www.theknowledgeacademy.com/it/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-jm" href="https://www.theknowledgeacademy.com/jm/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-jp" href="https://www.theknowledgeacademy.com/jp/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-jo" href="https://www.theknowledgeacademy.com/jo/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-kz" href="https://www.theknowledgeacademy.com/kz/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-ke" href="https://www.theknowledgeacademy.com/ke/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-kr" href="https://www.theknowledgeacademy.com/kr/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-kw" href="https://www.theknowledgeacademy.com/kw/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-kg" href="https://www.theknowledgeacademy.com/kg/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-lv" href="https://www.theknowledgeacademy.com/lv/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-lb" href="https://www.theknowledgeacademy.com/lb/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-ls" href="https://www.theknowledgeacademy.com/ls/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-li" href="https://www.theknowledgeacademy.com/li/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-lt" href="https://www.theknowledgeacademy.com/lt/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-lu" href="https://www.theknowledgeacademy.com/lu/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-mo" href="https://www.theknowledgeacademy.com/mo/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-mk" href="https://www.theknowledgeacademy.com/mk/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-mg" href="https://www.theknowledgeacademy.com/mg/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-mw" href="https://www.theknowledgeacademy.com/mw/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-my" href="https://www.theknowledgeacademy.com/my/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-mv" href="https://www.theknowledgeacademy.com/mv/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-ml" href="https://www.theknowledgeacademy.com/ml/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-mt" href="https://www.theknowledgeacademy.com/mt/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-mr" href="https://www.theknowledgeacademy.com/mr/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-mu" href="https://www.theknowledgeacademy.com/mu/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-mx" href="https://www.theknowledgeacademy.com/mx/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-md" href="https://www.theknowledgeacademy.com/md/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-mc" href="https://www.theknowledgeacademy.com/mc/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-mn" href="https://www.theknowledgeacademy.com/mn/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-ma" href="https://www.theknowledgeacademy.com/ma/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-mz" href="https://www.theknowledgeacademy.com/mz/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-na" href="https://www.theknowledgeacademy.com/na/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-np" href="https://www.theknowledgeacademy.com/np/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-nl" href="https://www.theknowledgeacademy.com/nl/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-nz" href="https://www.theknowledgeacademy.com/nz/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-ni" href="https://www.theknowledgeacademy.com/ni/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-ne" href="https://www.theknowledgeacademy.com/ne/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-ng" href="https://www.theknowledgeacademy.com/ng/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-no" href="https://www.theknowledgeacademy.com/no/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-om" href="https://www.theknowledgeacademy.com/om/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-pk" href="https://www.theknowledgeacademy.com/pk/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-pa" href="https://www.theknowledgeacademy.com/pa/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-pg" href="https://www.theknowledgeacademy.com/pg/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-py" href="https://www.theknowledgeacademy.com/py/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-pe" href="https://www.theknowledgeacademy.com/pe/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-ph" href="https://www.theknowledgeacademy.com/ph/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-pl" href="https://www.theknowledgeacademy.com/pl/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-pt" href="https://www.theknowledgeacademy.com/pt/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-pr" href="https://www.theknowledgeacademy.com/pr/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-qa" href="https://www.theknowledgeacademy.com/qa/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-ro" href="https://www.theknowledgeacademy.com/ro/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-ru" href="https://www.theknowledgeacademy.com/ru/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-rw" href="https://www.theknowledgeacademy.com/rw/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-sm" href="https://www.theknowledgeacademy.com/sm/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-sa" href="https://www.theknowledgeacademy.com/sa/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-sn" href="https://www.theknowledgeacademy.com/sn/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-cs" href="https://www.theknowledgeacademy.com/rs/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-sc" href="https://www.theknowledgeacademy.com/sc/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-sl" href="https://www.theknowledgeacademy.com/sl/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-sg" href="https://www.theknowledgeacademy.com/sg/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-sk" href="https://www.theknowledgeacademy.com/sk/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-si" href="https://www.theknowledgeacademy.com/si/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-za" href="https://www.theknowledgeacademy.com/za/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-es" href="https://www.theknowledgeacademy.com/es/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-lk" href="https://www.theknowledgeacademy.com/lk/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-sr" href="https://www.theknowledgeacademy.com/sr/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-se" href="https://www.theknowledgeacademy.com/se/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-ch" href="https://www.theknowledgeacademy.com/ch/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-tw" href="https://www.theknowledgeacademy.com/tw/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-tz" href="https://www.theknowledgeacademy.com/tz/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-th" href="https://www.theknowledgeacademy.com/th/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-tl" href="https://www.theknowledgeacademy.com/tl/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-tt" href="https://www.theknowledgeacademy.com/tt/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-tn" href="https://www.theknowledgeacademy.com/tn/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-tr" href="https://www.theknowledgeacademy.com/tr/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-ug" href="https://www.theknowledgeacademy.com/ud/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-ua" href="https://www.theknowledgeacademy.com/ua/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-ae" href="https://www.theknowledgeacademy.com/ae/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-us" href="https://www.theknowledgeacademy.com/us/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-uy" href="https://www.theknowledgeacademy.com/uy/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-uz" href="https://www.theknowledgeacademy.com/uz/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-ve" href="https://www.theknowledgeacademy.com/ve/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-vn" href="https://www.theknowledgeacademy.com/vn/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-zm" href="https://www.theknowledgeacademy.com/zm/blog/how-to-run-python-scripts/" /><link rel="alternate" hreflang="en-zw" href="https://www.theknowledgeacademy.com/zw/blog/how-to-run-python-scripts/" />        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                    })(window,document,'script','dataLayer','GTM-WPXJF73M');</script>
+        <script>
+            function closevirtual() {
+                $('.virtual-banner-outer').hide();
+            }
+        </script>
+    </head>
+
+    <body id="page_blog_how-to-run-python-scripts">
+
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WPXJF73M" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+        <meta itemprop="name" content="The Knowledge Academy">
+        <meta itemprop="url" content="https://www.theknowledgeacademy.com/">
+                <input type="hidden" id="countryCode" name="countryCode" value="uk">
+        <input type="hidden" id="countryConfigId" name="countryConfigId" value="1">
+        <input type="hidden" id="countryId" name="countryId" value="225">
+        <input type="hidden" id="isAdvert" name="isAdvert" value="1">
+        <input type="hidden" id="ecomOnly" name="ecomOnly" value="0">
+        <div id="overlays" class=""></div>
+        <header class="new-header">
+        <div class="header-container" id="menuToggle1">
+        <!--            <div class="banner-bfriday">-->
+<!--                <a href="javascript:void(0)" class="open-popup" enquirytype="2" data-coursename="PRINCE2® Foundation &amp; Practitioner" data-coursepageid="107" data-courseid="3">-->
+<!--                     <span class="link">-->
+<!--                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 blink">-->
+<!--                                <path fill-rule="evenodd" d="M14.615 1.595a.75.75 0 01.359.852L12.982 9.75h7.268a.75.75 0 01.548 1.262l-10.5 11.25a.75.75 0 01-1.272-.71l1.992-7.302H3.75a.75.75 0 01-.548-1.262l10.5-11.25a.75.75 0 01.913-.143z" clip-rule="evenodd" />-->
+<!--                            </svg>-->
+<!--                            <strong>PRINCE2® 7th edition is here! 20% off!</strong>-->
+<!--                        </span>-->
+<!--                    <span class="b-friday-btn"><span>Enquire Now</span><i class="fas fa-chevron-right" aria-hidden="true"></i></span>-->
+<!--                </a>-->
+<!--            </div>-->
+<!--            <div class="banner-bfriday">-->
+<!--                <a href="--><!--promotions/">-->
+<!--                <span class="link">-->
+<!--                    <b>Biggest Cyber Monday Sale!</b>  <strong>Upto 40% off </strong> - Grab now</strong>-->
+<!--                </span>-->
+<!--                    <span class="b-friday-btn"><span>See Deals</span><i class="fas fa-chevron-right" aria-hidden="true"></i></span>-->
+<!--                </a>-->
+<!--            </div>-->
+<!--            <div class="banner-bfriday">-->
+<!--                <a href="--><!--promotions/">-->
+<!--                    <span class="link"><strong>CYBER MONDAY SALE!&nbsp;</strong> Upto <strong style="font-style: normal;">&nbsp;60% off - 970 courses left!</strong></span>-->
+<!--                    <span class="b-friday-btn"><span>See deals </span><i class="fas fa-chevron-right" aria-hidden="true"></i></span>-->
+<!--                </a>-->
+<!--            </div>-->
+                <div class="header-maximum-width">
+            <div class="header-top">
+                <div class="mobile-menubar">
+                    <a href="https://www.theknowledgeacademy.com/" class="Tka-logo"><img src="/_public/images/home/tkalogo.svg" alt="The Knowledge Academy - Online certification training courses provider"></a>
+                    <div class="call-box">
+                        <a href="tel:01344203999">01344203999 - <span>Available 24/7</span></a>
+                    </div>
+                    <div class="mobile-links">
+                        <div class="message-box">
+                            <a href="#" class="open-contact-popup"  aria-label="Open Contact Popup" data-enquirytype="4"><span><i class="fas fa-comment-alt"></i></span></a>
+                        </div>
+                        <div class="mob-search header-search-popup">
+                            <img src="/_public/images/home/header-search.svg" alt="search-icon">
+                        </div>
+                    </div>
+                    <div class="right-menu" id="menuToggle">
+                        <img src="/_public/images/home/right-icon.svg" alt="right-icon" onclick="toggleMenu()" class="head-open clickimage">
+                        <img src="/_public/images/home/head-close.svg" alt="back" onclick="toggleMenu()" class="head-close clickimage">
+                    </div>
+                </div>
+                <div class="list-header">
+                    <ul class="lists">
+                        <li>
+                            <a href="javascript:void(0)" id="menucourses" class="course-li">Courses <i class="fas fa-chevron-down"></i><img src="/_public/images/course/down-hover.svg" alt="down"></a>
+                            <div class="dropdown">
+                                <div class="dropdown-container" id="dropdownmenu">
+                                </div>
+                            </div>
+                        </li>
+                        <!--<li><a href="https://www.theknowledgeacademy.com/onsite/">Onsite training</a></li>-->
+                                                <li><a href="https://www.theknowledgeacademy.com/resources/">Resources</a></li>
+                                                <li class="about-li">
+                            <a href="javascript:void(0)" id="aboutmenu">About <i class="fas fa-chevron-down"></i><img src="/_public/images/course/down-hover.svg" alt="down"></a>
+                            <div class="aboutdropdownmenu">
+                                <div class="aboutdropdown" id="aboutdropdownmenu">
+                                    <div class="aboutdropdownmenu-bar">
+                                        <div class="top-bar">
+                                            <div class="about-bar topbar-li">
+                                                <b>About</b>
+                                                <a href="https://www.theknowledgeacademy.com/about/">About Us</a>
+                                                <a href="javascript:void(0)" class="open-contact-popup"  aria-label="Open Contact Popup" data-enquirytype="4">Contact Us</a>
+                                                <a href="https://www.theknowledgeacademy.com/clients/">Clients</a>
+                                                <a href="https://www.theknowledgeacademy.com/careers/">Careers</a>
+                                            </div>
+                                            <div class="tkc-bar topbar-li">
+                                                <b>Resources</b>
+                                                <a href="https://www.theknowledgeacademy.com/resources/">Blogs</a>
+                                                <a href="https://www.theknowledgeacademy.com/news/">News</a>
+                                            </div>
+                                            <div class="company-bar topbar-li">
+                                                <b>Company brochures</b>
+                                                <a href="/_public/pdf/co-brochure.pdf" target="_blank">Company</a>
+                                                <a href="/_public/pdf/kp-brochure.pdf" target="_blank">Knowledge Pass</a>
+                                                <a href="/_public/pdf/fp-brochure.pdf" target="_blank">FlexiPass</a>
+                                                <a href="/_public/pdf/tka-careers.pdf" target="_blank">Careers Brochure</a>
+                                            </div>
+                                        </div>
+                                        <div class="bottom-bar">
+                                            <div class="left-bar">
+                                                <p>3,000,000+ delegates</p>
+                                                <p>15,000+ clients</p>
+                                                <p>1,000+ locations</p>
+                                            </div>
+                                            <div class="right-bar">
+                                                <a href="https://www.linkedin.com/company/the-knowledge-academy" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                                                <a href="https://twitter.com/TKA_Training" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                                                <a href="https://en-gb.facebook.com/The.Knowledge.Academy.Ltd/" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                                                <a href="https://www.instagram.com/the_knowledge_academy/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!--                            <li><a href="--><!--bundles-uk/">Offers</a></li>-->
+<!--                            --><!--                            <li><a href="--><!--bundles-us/">Offers</a></li>-->
+<!--                            --><!--                            <li><a href="--><!--bundles-row/">Offers</a></li>-->
+<!--                            -->                        <li><a href="https://www.theknowledgeacademy.com/promotions/">Offers</a></li>
+                        <li><a href="https://www.theknowledgeacademy.com/knowledgepass/">KnowledgePass</a></li>
+                        <!--<li><a href="https://www.theknowledgeacademy.com/career/">Careers</a></li>-->
+                        <li class="m-30"><a href="https://www.theknowledgeacademy.com/tickets/">Log a ticket</a></li>
+                        <li class="menu-call-box">
+                            <a href="javascript:void(0)" class="open-contact-popup"  aria-label="Open Contact Popup" data-enquirytype="4"><p>01344203999 <span>Available 24/7</span></p> <img src="/_public/images/home/cta-arrow-white.svg" alt="price"></a>
+                        </li>
+                        <li class="menu-contact-popup"><a href="javascript:void(0)" class="open-contact-popup"  aria-label="Open Contact Popup" data-enquirytype="4"><span><i class="fas fa-comment-alt"></i></span></a></li>
+                    </ul>
+                </div>
+                <div class="bottom-contact">
+                    <div class="input-search header-search-popup">
+                        <img src="/_public/images/home/header-search.svg" alt="search-icon">
+                        <!--
+                        <div class="input-search" id="searchbox">
+                                <input type="text" id="automplete-1" class="search auto-complete-course courseIdLookupNotHome" placeholder="Search for a course">
+                                <input class="courseId" value="" name="courseId" type="hidden" />
+                                <input class="topicId" name="topicId" type="hidden" />
+                                <img src="/_public/images/home/header-search.svg" alt="search-icon">
+                            </div>
+                        -->
+                    </div>
+                    <div class="countrys-name country-select">
+                                                <div class="country">
+                            <div id="country-desktop" data-codeSelect="" onchange="changeCountry($(this).attr('data-codeSelect'));"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                <div class="tka-trustpilot-widget">
+            <TrustBox widget - Micro Combo>
+                <div class="trustpilot-widget" data-locale="en-US" data-template-id="5419b6ffb0d04a076446a9af" data-businessunit-id="4f74337700006400051401fc" data-style-height="20px" data-style-width="100%" data-theme="light">
+                    <a href="https://www.trustpilot.com/review/theknowledgeacademy.com" target="_blank" rel="noopener">Trustpilot</a>
+                </div>
+            <End TrustBox widget>
+        </div>
+        <!--        <div class="tka-trustpilot">-->
+<!--            <p>Excellent-->
+<!--                <img src="/_public/images/home/trust-stars.png" />-->
+<!--                <span>4.6 Stars</span>-->
+<!--                <img class="trust-logo" src="/_public/images/home/trust-logo.png" />-->
+<!--            </p>-->
+<!--        </div>-->
+        
+    </div>
+</header>
+
+<main class="blog-detail">
+
+    <!-- Start blog-list Banner-->
+    <section class="blog-detail-banner">
+        <div class="blog-detail-container">
+            <div class="banner-container">
+                <div class="banner-content">
+                    <h1>How to Run Python Scripts? A Beginner's Guide</h1>
+                    <b>Eliza Taylor&nbsp;&nbsp;05 December 2024</b>
+                    <p>Learn the essentials of Running Python Scripts effortlessly! Dive into our beginner's guide on “How to Run Python Scripts?” Explore step-by-step instructions on running Python Scripts from command-line execution to IDE usage and file manager techniques. Master the art of Running Python Scripts efficiently in this blog.</p>
+                    <div class="breadcrums">
+                        <a href="https://www.theknowledgeacademy.com/"> Home</a>
+                        <span> <img src="/_public/images/course/breadcrum-arrow.svg" alt="breadcrum-arrow"> </span>
+                        <a href="https://www.theknowledgeacademy.com/resources/"> Resources</a>
+                        <span> <img src="/_public/images/course/breadcrum-arrow.svg" alt="breadcrum-arrow"> </span>
+                        <a href="https://www.theknowledgeacademy.com/resources/programming-and-devops/"> Programming & DevOps</a>
+                        <span> <img src="/_public/images/course/breadcrum-arrow.svg" alt="breadcrum-arrow"></span>
+                        How to Run Python Scripts? A Beginner's Guide 
+                    </div>
+                </div>
+                <div class="banner-info">
+                    <img src="/_public/images/blog/book.svg" alt="book">
+                    <div class="info">
+                        <strong><a target="_blank" href="https://www.theknowledgeacademy.com/courses/programming-training/python-programming-training/"> Python Course</a></strong>
+                        <span><img src="/_public/images/blog/stars.png" alt="stars">Top Rated Course</span>
+                        <p>Exclusive 40% OFF</p>
+                    </div>
+                    <div class="all-buttons">
+                        <button class="yellow-filled open-popup" data-enquirytype="1094" data-coursename="Python Course" data-coursepageid="49098469" data-courseid="739">
+                            Enquire Now
+                        </button>
+                        <button class="yellow-filled test-btn open-popup" data-downloadlink ="https://tkacoursematerial.s3.eu-west-2.amazonaws.com/Python%20Programming%20Training%20Course.pdf" data-enquirytype="1094" data-coursename="Python Course" data-coursepageid="49098469" data-courseid="739">
+                            Download curriclum
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- End  blog-list Banner-->
+
+    <!-- Start blog-list Query Section -->
+
+    <section class="blog-detail-query">
+        <div class="blog-detail-container">
+            <div class="query-container">
+
+                <!-- Left Div -->
+                <div class="list-content">
+                    <div class="content-list">
+                        <div class="trained">
+                            <h3>Training Outcomes Within Your Budget!</h3>
+                            <p>We ensure quality, budget-alignment, and timely delivery by our expert instructors.</p>
+                            <div class="all-buttons">
+                                <a class="yellow-filled open-popup" data-enquirytype="1096" data-topicpageid="49098391">
+                                Schedule a Call Now
+                                </a>
+                            </div>
+                        </div>
+                        <div class="accounts">
+                            <h3>Share this Resource</h3>
+                            <a href="javascript:void(0)"  id="facebook"><i class="fab fa-facebook" aria-hidden="true"> </i></a>
+                            <!-- <a href="javascript:void(0)" id="instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a> -->
+                            <a href="javascript:void(0)" id="twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                            <a href="javascript:void(0)"  id="linkedin"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                            <!-- <a href="#" target="_blank" id="pinterest"><i class="fab fa-pinterest" aria-hidden="true"></i></a> -->
+                        </div>
+                        
+                        <div class="content-item">
+                            
+                            <strong>Table of Contents</strong>
+                            <div id="toc-ul" class="toc-ul"></div>
+                        </div>
+                    </div>
+                    <div class="topic-list">
+                        <b>Related Courses</b>
+                        <ul>
+                            <li><a href="https://www.theknowledgeacademy.com/courses/programming-training/basic-perl-programming-training/">Basic Perl Programming Training</a></li><li><a href="https://www.theknowledgeacademy.com/courses/programming-training/r-programming/">R Programming Course</a></li><li><a href="https://www.theknowledgeacademy.com/courses/programming-training/apache-cassandra-training/">Apache Cassandra Training</a></li><li><a href="https://www.theknowledgeacademy.com/courses/programming-training/django-training/">Python Django Training</a></li><li><a href="https://www.theknowledgeacademy.com/courses/app-and-web-development-training/web-development-using-python-and-web2py/">Web Development using Python and Web2py</a></li>                        </ul>
+                    </div>
+                </div>
+                <!-- Left Div -->
+
+                <!-- Center Div -->
+                <div class="center-container">
+                    <div class="blog-data">
+                        
+                        <!-- <span class="b-image"><img src="/_public/images/blog/course.png" alt="course"></span>-->
+                        <div class="blog-item">
+                            <p><img alt="How to Run Python Scripts" src="/_files/images/How_to_Run_Python_Scripts.png" style="width: 850px; height: 450px;" /></p>
+
+<p>Are you an amateur <a href="https://www.theknowledgeacademy.com/blog/web-developer-job-description/" target="_blank">Web Developer</a>, Machine Learning Engineer or <a href="https://www.theknowledgeacademy.com/blog/game-developer/" target="_blank">Game Developer</a>? Perhaps you are tired of using languages like Golang, <a href="https://www.theknowledgeacademy.com/blog/what-is-php/" target="_blank">PHP</a> or <a href="https://www.theknowledgeacademy.com/blog/what-is-java/" target="_blank">Java</a> and want to try your hand at something new. Python is just the language you need. With its simple syntax, dynamically typed code, extensive standard libraries and <a href="https://www.theknowledgeacademy.com/blog/what-is-object-oriented-programming/" target="_blank">object-oriented</a> nature, Python is fast becoming the go to language for programmers from multiple disciplines. But beginners still struggle with the basic question of "How to Run Python Scripts?" &nbsp;&nbsp;</p>
+
+<p>If you want to learn about this versatile language and how to run its scripts, this blog is for you. Read this blog to understand How to Run Python Scripts using various methods ranging from command-line execution and IDEs to file manager techniques.&nbsp;</p>
+
+<p><strong>Table of Contents&nbsp;</strong></p>
+
+<p>1) What is a Python Script?&nbsp;</p>
+
+<p>2) How to run Python Scripts from command line?&nbsp;</p>
+
+<p>3) How to run Python Scripts in interactive mode?&nbsp;</p>
+
+<p>4) How to run Python Scripts from an IDE or code editor?&nbsp;</p>
+
+<p>5) How to run Python Scripts from file manager?&nbsp;</p>
+
+<p>6) Conclusion&nbsp;</p>
+
+<h2><strong>What is a Python Script?&nbsp;</strong></h2>
+
+<p>A Python script is a sequence of instructions written in the <a href="https://www.theknowledgeacademy.com/blog/what-is-python-programming/" target="_blank">Python programming</a> language that performs a specific task or set of tasks. These scripts are plain text files containing lines of code that a Python interpreter executes. Python scripts offer a versatile way to automate processes, manipulate data, or create applications. &nbsp;</p>
+
+<p>Running Python Scripts involves utilising the Python interpreter to execute the code written in the script. To run Python Scripts, you can open a command prompt or terminal, navigate to the directory containing the script, and use the command "python script_name.py" (replace "script_name" with the actual filename). Alternatively, you can incorporate the shebang line at the beginning of the script (e.g., "#!/usr/bin/env python") and make the script executable, enabling it to run directly without explicitly invoking the Python interpreter.&nbsp;Understanding concepts like <a href="https://www.theknowledgeacademy.com/blog/method-overloading-and-method-overriding-in-python/" target="_blank">Method Overloading and Method Overriding in Python</a> can further enhance your Python programming skills.&nbsp;</p>
+
+<p>The utility of running Python Scripts lies in their ability to streamline repetitive tasks, enhance data processing efficiency, and develop scalable solutions. From simple automation to complex data analysis and application development, Python Scripts empower users to harness the language's flexibility and readability, making them an invaluable tool for developers, data scientists, and system administrators.<br />
+&nbsp;</p>
+
+<p><a href="https://www.theknowledgeacademy.com/courses/programming-training/python-programming-training/" target="_blank"><img alt="Python Programming Course" src="/_files/images/Python_Programming_Course%C2%A0.png" style="width: 747px; height: 227px;" /></a></p>
+
+<p>&nbsp;&nbsp;</p>
+
+<h2><strong>How to Run Python Scripts from the command line?&nbsp;</strong></h2>
+
+<p>Running Python Scripts from the command line is a fundamental skill for any Python Developer or enthusiast. The process involves a series of steps that allow users to execute Python code seamlessly. Here's a step-by-step guide on how to run Python Scripts from the command line:&nbsp;</p>
+
+<p><strong>a) Open the Command Prompt or Terminal&nbsp;</strong></p>
+
+<p>On Windows, press Win + R, type "cmd," and press Enter.&nbsp;</p>
+
+<p>On macOS or Linux, open the Terminal.&nbsp;</p>
+
+<p><strong>b) Navigate to the Script's Directory&nbsp;</strong></p>
+
+<p>Use the cd command to change the current directory to the one containing your Python Script.&nbsp;</p>
+
+<p>cd path/to/script/directory</p>
+
+<p><strong>c) Run the Python Script&nbsp;</strong></p>
+
+<p>Enter the following command to execute the Python Script.&nbsp;</p>
+
+<p>python script_name.py&nbsp;</p>
+
+<p>Replace "script_name" with the actual name of your Python Script.&nbsp;</p>
+
+<p>If you are using Python 3, you may need to use python3 instead of python:&nbsp;</p>
+
+<p>python3 script_name.py&nbsp;</p>
+
+<p><strong>d) Use the Shebang Line (Optional)&nbsp;</strong></p>
+
+<p>Include a shebang line at the beginning of your script to make it executable without explicitly calling the Python interpreter.&nbsp;</p>
+
+<p>#!/usr/bin/env python&nbsp;</p>
+
+<p>Make the script executable with the following command:&nbsp;</p>
+
+<p>chmod +x script_name.py&nbsp;</p>
+
+<p>Now, you can run the script directly:&nbsp;</p>
+
+<p>./script_name.py&nbsp;</p>
+
+<p><strong>e) Pass command-line arguments (Optional)&nbsp;</strong></p>
+
+<p>If your script accepts command-line arguments, you can pass them after the script name:&nbsp;</p>
+
+<p>python script_name.py arg1 arg2&nbsp;</p>
+
+<p><strong>f) Virtual environments (Optional)&nbsp;</strong></p>
+
+<p>Consider using virtual environments to isolate dependencies for your project.&nbsp;</p>
+
+<p>python -m venv venv&nbsp;</p>
+
+<p>source venv/bin/activate &nbsp;# On macOS/Linux&nbsp;</p>
+
+<p>.venvScriptsactivate &nbsp;# On Windows&nbsp;</p>
+
+<p><strong>g) Check the Python version&nbsp;</strong></p>
+
+<p>Ensure that the correct Python version is installed and available in your system's PATH.&nbsp;</p>
+
+<p>python --version&nbsp;</p>
+
+<h3><strong>Pros and cons of running Python Scripts from the command line&nbsp;</strong></h3>
+
+<p>Running Python Scripts from the command line or terminal has some advantages, such as:&nbsp;</p>
+
+<p>a) It is fast and easy to use, especially for testing and debugging.&nbsp;</p>
+
+<p>b) It allows you to run Python Scripts from any location on your system as long as you know the path to the script file.&nbsp;</p>
+
+<p>c) It gives you direct access to the Python interpreter and its features, such as command-line arguments, environment variables, and error messages.&nbsp;</p>
+
+<p>However, running Python Scripts from the command line or terminal also has some disadvantages, such as:&nbsp;</p>
+
+<p>a) Typing long and complex commands can be tedious and error-prone, especially if you have multiple script files or dependencies.&nbsp;</p>
+
+<p>b) Reading and editing your code on a text-based interface can be difficult, especially if you have a large and complex script.&nbsp;</p>
+
+<p>c) Switching between the command line or terminal and other tools, such as a web browser or text editor, can be inconvenient.&nbsp;</p>
+
+<p><span style="vertical-align:baseline"><i>Enhance your career prospects by learning Programming focused on your domain; sign up for our&nbsp; </i><a href="https://www.theknowledgeacademy.com/courses/programming-training/" target="_blank"><b><i>Programming Training</i></b></a><i> now!</i>&nbsp;</span></p>
+
+<h2><strong>How to Run Python Scripts in interactive mode?&nbsp;</strong></h2>
+
+<p>Running Python Scripts in interactive mode provides a dynamic environment for testing code snippets, exploring Python features, and interacting with the interpreter in real-time. Interactive mode allows users to interact with Python code on a line-by-line basis. Unlike running scripts where the entire code executes at once, interactive mode lets you enter commands, receive immediate feedback, and explore Python's functionality. Here's a detailed guide on how to run Python Scripts in interactive mode:&nbsp;</p>
+
+<p><strong>a) Open the Command Prompt or Terminal&nbsp;</strong></p>
+
+<p>Navigate to the directory containing your Python Script.&nbsp;</p>
+
+<p><strong>b) Enter the Python Interpreter&nbsp;</strong></p>
+
+<p>Type python or python3 in the command line and press Enter.&nbsp;</p>
+
+<p>python&nbsp;</p>
+
+<p><strong>c) Interactive Shell Prompt&nbsp;</strong></p>
+
+<p>Upon entering the Python interpreter, you'll see the interactive shell prompt (>>>). This indicates that Python is ready to receive commands.&nbsp;</p>
+
+<p><strong>d) Run a Python Script&nbsp;</strong></p>
+
+<p>Use the exec() function to run a Python Script from the interactive mode.&nbsp;</p>
+
+<p>>>> exec(open('your_script.py').read())&nbsp;</p>
+
+<p><strong>e) Explore variables and expressions&nbsp;</strong></p>
+
+<p>Define variables, perform calculations, and explore expressions interactively.&nbsp;</p>
+
+<p>>>> x = 5&nbsp;</p>
+
+<p>>>> y = 10&nbsp;</p>
+
+<p>>>> x + y&nbsp;</p>
+
+<p>15&nbsp;</p>
+
+<p><strong>f) Multiline statements&nbsp;</strong></p>
+
+<p>For multiline statements, use triple quotes (''' or """) or enter an open parenthesis, and the interpreter will recognise that the statement is incomplete.&nbsp;</p>
+
+<p>>>> total = (x +&nbsp;</p>
+
+<p>... &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;y)&nbsp;</p>
+
+<p>>>> total&nbsp;</p>
+
+<p>15&nbsp;</p>
+
+<p><strong>g) Access help and documentation&nbsp;</strong></p>
+
+<p>Utilise the help() function or the ? symbol to access built-in help and documentation.&nbsp;</p>
+
+<p>>>> help(print)&nbsp;</p>
+
+<p>>>> print?&nbsp;</p>
+
+<p><strong>h) Exit Interactive Mode&nbsp;</strong></p>
+
+<p>To exit interactive mode, type exit() or quit(), or use the keyboard shortcut (Ctrl + Z on Windows, Ctrl + D on macOS/Linux).&nbsp;</p>
+
+<p><strong>i) Use IPython (Optional)&nbsp;</strong></p>
+
+<p>IPython is an enhanced interactive Python shell with advanced features. Install it using:&nbsp;</p>
+
+<p>pip install ipython&nbsp;</p>
+
+<p>Start IPython with the command ipython for an enhanced interactive experience. &nbsp;</p>
+
+<h3><strong>Pros and cons of running Python Scripts in interactive mode&nbsp;</strong></h3>
+
+<p>Running Python Scripts in the interactive mode or REPL has some advantages, such as:&nbsp;</p>
+
+<p>a) It is convenient and fun, especially for learning and experimenting with Python code.&nbsp;</p>
+
+<p>b) It allows you to run Python code without creating and saving a script file, which can save time and disk space.&nbsp;</p>
+
+<p>c) It gives you immediate feedback and results, which can help you understand and debug your code.&nbsp;</p>
+
+<p>However, running Python Scripts in the interactive mode or REPL also has some disadvantages, such as:&nbsp;</p>
+
+<p>a) Running complex and multi-line Python code can be difficult, as you have to type and execute each line separately.&nbsp;</p>
+
+<p>b) It can be hard to keep track of the variables and objects you created and modified in the interactive mode or REPL, as they are not saved or cleared automatically.&nbsp;</p>
+
+<p>c) Reusing and sharing your code can be challenging, as you have to copy and paste it from the interactive mode or REPL to a script file or another tool.&nbsp;</p>
+
+<p><span style="vertical-align:baseline"><i>Learn the Python framework for creating websites and sign up for our </i><a href="https://www.theknowledgeacademy.com/courses/programming-training/django-training/" target="_blank"><b><i>Python Django Training</i></b></a><i> now!</i>&nbsp;</span></p>
+
+<h2><strong>How to Run Python Scripts from an IDE or a code editor&nbsp;</strong></h2>
+
+<p>Running Python Scripts from an Integrated Development Environment (IDE) or code editor offers developers a streamlined and feature-rich experience. IDEs like PyCharm, Visual Studio Code, and Jupyter Notebooks provide dedicated environments for coding, debugging, and running Python Scripts.&nbsp;</p>
+
+<p><strong>a) Setting up a project:</strong> IDEs allow developers to organise code into projects, providing a structured environment. A project typically includes source files, dependencies, and configuration settings. Setting up a project ensures a cohesive workspace for script execution.&nbsp;</p>
+
+<p><strong>b) Code completion and suggestions:</strong> IDEs enhance the development process with features like code completion and suggestions. As developers type, the IDE suggests completions, reducing the likelihood of syntax errors and improving coding efficiency.&nbsp;</p>
+
+<p><strong>c) Integrated debugging:</strong> Debugging seamlessly integrates into IDEs, enabling developers to set breakpoints, inspect variables, and step through code. This facilitates the identification and resolution of issues during script execution.&nbsp;A deep understanding of <a href="https://www.theknowledgeacademy.com/blog/python-data-structures/" target="_blank">Python Data Structures</a> is crucial, as it helps in diagnosing problems and optimizing the performance of scripts.&nbsp;&nbsp;</p>
+
+<p><strong>d) Execution from within the IDE:</strong> IDEs offer the convenience of executing Python Scripts directly from the interface. Developers can run scripts with a simple button click or keyboard shortcut, providing a quick and efficient way to test and validate code.&nbsp;</p>
+
+<p><strong>e) Interactive shells: </strong>Many IDEs include interactive Python shells or consoles, allowing developers to execute code interactively. This feature is particularly useful for exploring data, testing small code snippets, and experimenting with Python features in real-time.&nbsp;</p>
+
+<p><strong>f) Integrating with version control: </strong>IDEs seamlessly integrate with version control systems like Git. Developers can commit changes, switch branches, and collaborate with team members directly from the IDE, ensuring version history and project integrity.&nbsp;</p>
+
+<p><strong>f) Customisations and extensions:</strong> IDEs are highly customisable, allowing developers to tailor the environment to their preferences. Extensions and plugins enhance functionality, providing access to additional tools, frameworks, and language support.&nbsp;For instance, understanding how to work with <a href="https://www.theknowledgeacademy.com/blog/python-array/" target="_blank">Python Arrays</a> can be improved with specialized plugins and extensions, which facilitate better management and manipulation of data structures.&nbsp;</p>
+
+<p><strong>g) Performance profiling:</strong> Some IDEs offer performance profiling tools that help identify bottlenecks and optimise code. Profiling features assist in creating efficient and optimised Python Scripts.&nbsp;</p>
+
+<p><strong>h) Jupyter notebooks:</strong> Jupyter Notebooks are a popular choice for <a href="https://www.theknowledgeacademy.com/blog/what-is-data-science/" target="_blank">data science</a> and exploratory coding. These notebooks, often integrated into IDEs, allow developers to create and share documents containing live code, equations, visualisations, and narrative text.&nbsp;</p>
+
+<h3><strong>Pros and cons of Running Python Scripts from an IDE or a code editor&nbsp;</strong></h3>
+
+<p>Running Python Scripts on IDEs and code editors has some advantages, such as:&nbsp;</p>
+
+<p>a) It is comfortable and productive, especially for developing and debugging large and complex Python projects.&nbsp;</p>
+
+<p>b) It provides a rich and powerful set of tools and features that enhance and automate your Python coding experience.&nbsp;</p>
+
+<p>c) It integrates well with other tools and services, such as version control systems, testing frameworks, web servers, etc.&nbsp;</p>
+
+<p>However, running Python Scripts on IDEs and code editors also has some disadvantages, such as: &nbsp;</p>
+
+<p>a) It can be overwhelming and confusing to use, especially for beginners and casual users, as there are many options and settings to choose and configure.&nbsp;</p>
+
+<p>b) It can be slow and resource-intensive, especially for low-end or old systems, as it consumes more memory and CPU power than the command line or terminal.&nbsp;</p>
+
+<p>c) Using it can be incompatible and inconsistent, especially for cross-platform or collaborative development, as different IDEs and code editors may have different behaviours and requirements.&nbsp;</p>
+
+<p><span style="vertical-align:baseline"><i>Gain knowledge of the workings of Lua programming language. Sign up for our </i><a href="https://www.theknowledgeacademy.com/courses/programming-training/lua-programming-language-training/" target="_blank"><b><i>Lua Programming Language Training</i></b></a><i> now!</i>&nbsp;</span></p>
+
+<h2><strong>How to Run Python Scripts from a file manager&nbsp;</strong></h2>
+
+<p>Running Python Scripts directly from a file manager involves leveraging the command-line interface available in the operating system. Here's a detailed guide on how to execute Python Scripts using a file manager:&nbsp;</p>
+
+<p><strong>a) File preparation&nbsp;</strong></p>
+
+<p>Begin by creating a Python Script using a text editor. Save the script with a .py extension. For example, create a file named myscript.py. Ensure that the Python interpreter is installed on your system.&nbsp;</p>
+
+<p><strong>b) Python installation&nbsp;</strong></p>
+
+<p>Install Python on your computer if it's not already installed. Visit the official Python website to download and install the latest version suitable for your <a href="https://www.theknowledgeacademy.com/blog/what-is-operating-system/" target="_blank">operating system</a>.&nbsp;</p>
+
+<p><strong>c) Command-line access&nbsp;</strong></p>
+
+<p>To run Python Scripts from a file manager, you need command-line access. On Windows, this typically involves using the Command Prompt or PowerShell. On Unix-based systems (Linux or macOS), use the Terminal.&nbsp;</p>
+
+<p><strong>d) Navigate to script location&nbsp;</strong></p>
+
+<p>Open the file manager and navigate to the location where your Python Script is saved. Take note of the full path to this location.&nbsp;</p>
+
+<p><strong>e) Open command-line interface&nbsp;</strong></p>
+
+<p>Open the command-line interface (Command Prompt, PowerShell, or Terminal) on your system. Use the cd command to navigate to the directory where your Python Script is located. For example:&nbsp;</p>
+
+<p>cd path/to/script&nbsp;</p>
+
+<p><strong>f) Execute Python Script&nbsp;</strong></p>
+
+<p>Run the Python Script using the Python command followed by the script's filename. For Python 3, use python3 instead. For example:&nbsp;</p>
+
+<p>python myscript.py&nbsp;</p>
+
+<p><strong>g) Observe output&nbsp;</strong></p>
+
+<p>After executing the command, observe the output generated by the Python Script. Any print statements or results will be displayed in the command-line interface.&nbsp;</p>
+
+<p><strong>h) Passing command-line arguments&nbsp;</strong></p>
+
+<p>If your Python Script accepts command-line arguments, pass them after the script's filename. For example:&nbsp;</p>
+
+<p>python myscript.py arg1 arg2&nbsp;</p>
+
+<p><strong>i) Troubleshooting&nbsp;</strong></p>
+
+<p>If the Python command is not recognised, ensure that Python is correctly installed and its executable is included in the system's PATH environment variable.&nbsp;</p>
+
+<p><strong>j) Customisations (Optional)&nbsp;</strong></p>
+
+<p>You can customise the process by creating a batch file or shell script that encapsulates the command-line instructions. This step is optional and allows for a more user-friendly experience.&nbsp;</p>
+
+<h3><strong>Pros and cons of Running Python Scripts from a file manager&nbsp;</strong></h3>
+
+<p>Running Python Scripts from a file manager has some advantages, such as:&nbsp;</p>
+
+<p>a) It is simple and intuitive, especially for non-technical or occasional users, as you do not need to type commands or open tools.&nbsp;</p>
+
+<p>b) It allows you to run Python Scripts with a single click or a simple gesture, saving time and effort.&nbsp;</p>
+
+<p>c) It works well with Graphical User Interface (GUI) applications, as it opens a new window for the output of your script.&nbsp;</p>
+
+<p>However, running Python Scripts from a file manager also has some disadvantages, such as:&nbsp;</p>
+
+<p>a) It can be limited and restrictive to use, especially for advanced or professional users, as you do not have much control or flexibility over the execution of your script.&nbsp;</p>
+
+<p>b) It can be problematic and unreliable, especially for cross-platform or collaborative development, as different operating systems and file managers may have different behaviours and requirements.&nbsp;</p>
+
+<p>c) It can be insecure and risky, especially for unknown or untrusted scripts, as it may execute malicious code without your consent or awareness.&nbsp;</p>
+
+<p><span style="vertical-align:baseline"><i>Learn PHP skills for web development; sign up for our </i><a href="https://www.theknowledgeacademy.com/courses/programming-training/php-programming/" target="_blank"><b><i>PHP Programming Training</i></b></a><i> now!</i>&nbsp;</span></p>
+
+<h2><strong>Conclusion&nbsp;</strong></h2>
+
+<p>In conclusion, mastering How to Run Python Scripts is fundamental for any aspiring programmer. Whether through command-line interfaces, IDEs, or file managers, this guide empowers beginners to execute Python Scripts effortlessly. Embrace the versatility of Python and navigate the coding journey with confidence, mastering the art of running Python Scripts.&nbsp;</p>
+
+<p><span style="vertical-align:baseline"><i>Acquire knowledge about the architecture, data model and installation of Cassandra; sign up for our </i><a href="https://www.theknowledgeacademy.com/courses/programming-training/apache-cassandra-training/" target="_blank"><b><i>Apache Cassandra Training</i></b></a><i> now!</i>&nbsp;</span></p>                        </div>
+                    </div>
+
+                    <div class="faq-container">
+                        <div class="blog-detail-heading">
+                            <h2>Frequently Asked <span>Questions</span></h2>
+                        </div>
+                        <div class="faq-list">
+                            <div class="faq-item">
+                            <div class="ques">
+                                <strong>What is the command to run a Python Script in the terminal or command prompt? </strong>
+                                <img src="/_public/images/pla_images/faq-arrow.svg" alt="faq-arrow">
+                            </div>
+                            <div class="ans">
+                                <p><p style="text-align:justify"><span style="vertical-align:baseline">To run a Python Script in the terminal or command prompt, you use the following command:&nbsp;</span></p>
+
+<p style="text-align:justify"><span style="vertical-align:baseline">python script_name.py&nbsp;</span></p>
+
+<p style="text-align:justify"><span style="vertical-align:baseline">Replace "script_name.py" with the actual name of your Python Script. This command tells the Python interpreter to execute the specified script. It's essential to have Python installed and added to the system's PATH for this command to work. This straightforward command is the entry point for executing Python Scripts in a command-line environment.&nbsp;</span></p>
+</p>
+                            </div>
+                        </div><div class="faq-item">
+                            <div class="ques">
+                                <strong>Can I run Python Scripts on different operating systems like Windows, macOS, and Linux? </strong>
+                                <img src="/_public/images/pla_images/faq-arrow.svg" alt="faq-arrow">
+                            </div>
+                            <div class="ans">
+                                <p><p style="text-align:justify"><span style="vertical-align:baseline">Yes, Python Scripts are highly portable and can be run on various operating systems, including Windows, macOS, and Linux. Python's cross-platform compatibility is a key strength. The same Python Script can be executed seamlessly on different operating systems without modification, ensuring flexibility and ease of use. This platform independence is one of the reasons Python is widely adopted for diverse development tasks across different environments.&nbsp;</span></p>
+</p>
+                            </div>
+                        </div><div class="faq-item">
+                            <div class="ques">
+                                <strong>Is there a way to run a Python Script from a specific directory without changing directories? </strong>
+                                <img src="/_public/images/pla_images/faq-arrow.svg" alt="faq-arrow">
+                            </div>
+                            <div class="ans">
+                                <p><p style="text-align:justify"><span style="vertical-align:baseline">Yes, you can run a Python Script from a specific directory without changing directories by providing the full path to the script along with the filename. In the terminal or command prompt, use the command "python /path/to/your/script.py" (replace "/path/to/your/" with the actual path to your script). This allows you to execute the Python Script from any location, providing the full path for direct access.&nbsp;</span></p>
+</p>
+                            </div>
+                        </div><div class="faq-item">
+                            <div class="ques">
+                                <strong>What are the other resources and offers provided by The Knowledge Academy?   </strong>
+                                <img src="/_public/images/pla_images/faq-arrow.svg" alt="faq-arrow">
+                            </div>
+                            <div class="ans">
+                                <p><p style="text-align:justify"><span style="vertical-align:baseline">The Knowledge Academy takes global learning to new heights, offering over 30,000 online courses across 490+ locations in 220 countries. This expansive reach ensures accessibility and convenience for learners worldwide.&nbsp;&nbsp;</span></p>
+
+<p style="text-align:justify"><span style="vertical-align:baseline">Alongside our diverse Online Course Catalogue, encompassing 17 major categories, we go the extra mile by providing a plethora of free educational Online Resources like <strong><a href="https://www.theknowledgeacademy.com/news/" target="_blank">News</a></strong> updates, <strong><a href="https://www.theknowledgeacademy.com/resources/" target="_blank">Blogs</a></strong>, videos, webinars, and interview questions. Tailoring learning experiences further, professionals can maximise value with customisable <strong><a href="https://www.theknowledgeacademy.com/bundles-uk/" target="_blank">Course Bundles of TKA</a></strong>.&nbsp;</span></p>
+</p>
+                            </div>
+                        </div><div class="faq-item">
+                            <div class="ques">
+                                <strong>What is Knowledge Pass, and how does it work?  </strong>
+                                <img src="/_public/images/pla_images/faq-arrow.svg" alt="faq-arrow">
+                            </div>
+                            <div class="ans">
+                                <p><p style="text-align:justify"><span style="vertical-align:baseline"><strong><a href="https://www.theknowledgeacademy.com/knowledgepass/" target="_blank">The Knowledge Academy’s Knowledge Pass</a></strong>, a prepaid voucher, adds another layer of flexibility, allowing course bookings over a 12-month period. Join us on a journey where education knows no bounds.&nbsp;</span></p>
+</p>
+                            </div>
+                        </div><div class="faq-item">
+                            <div class="ques">
+                                <strong>What are related Programming courses and blogs provided by The Knowledge Academy? </strong>
+                                <img src="/_public/images/pla_images/faq-arrow.svg" alt="faq-arrow">
+                            </div>
+                            <div class="ans">
+                                <p><p style="text-align:justify"><span style="vertical-align:baseline">The Knowledge Academy offers various <strong><a href="https://www.theknowledgeacademy.com/courses/programming-training/" target="_blank">Programming courses</a></strong>, including Python Programming Course, Visual Basic Course and R Programming Course. These courses cater to different skill levels, providing comprehensive insights into <strong><a href="https://www.theknowledgeacademy.com/blog/what-is-object-oriented-programming/" target="_blank">What is Object Oriented Programming (OOP)</a></strong>.&nbsp;&nbsp;&nbsp;</span></p>
+
+<p style="text-align:justify"><span style="vertical-align:baseline">Our <strong><a href="https://www.theknowledgeacademy.com/resources/programming-and-devops/#blogs" target="_blank">Programming blogs</a></strong> cover a range of topics related to Programming, offering valuable resources, best practices, and industry insights. Whether you are a beginner or looking to advance your Programming skills, The Knowledge Academy's diverse courses and informative blogs have you covered.&nbsp;</span></p>
+</p>
+                            </div>
+                        </div><script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the command to run a Python Script in the terminal or command prompt? ","acceptedAnswer":{"@type":"Answer","text":"To run a Python Script in the terminal or command prompt, you use the following command:\u00a0\r\n\r\npython script_name.py\u00a0\r\n\r\nReplace \"script_name.py\" with the actual name of your Python Script. This command tells the Python interpreter to execute the specified script. It's essential to have Python installed and added to the system's PATH for this command to work. This straightforward command is the entry point for executing Python Scripts in a command-line environment.\u00a0\r\n"}},{"@type":"Question","name":"Can I run Python Scripts on different operating systems like Windows, macOS, and Linux? ","acceptedAnswer":{"@type":"Answer","text":"Yes, Python Scripts are highly portable and can be run on various operating systems, including Windows, macOS, and Linux. Python's cross-platform compatibility is a key strength. The same Python Script can be executed seamlessly on different operating systems without modification, ensuring flexibility and ease of use. This platform independence is one of the reasons Python is widely adopted for diverse development tasks across different environments.\u00a0\r\n"}},{"@type":"Question","name":"Is there a way to run a Python Script from a specific directory without changing directories? ","acceptedAnswer":{"@type":"Answer","text":"Yes, you can run a Python Script from a specific directory without changing directories by providing the full path to the script along with the filename. In the terminal or command prompt, use the command \"python \/path\/to\/your\/script.py\" (replace \"\/path\/to\/your\/\" with the actual path to your script). This allows you to execute the Python Script from any location, providing the full path for direct access.\u00a0\r\n"}},{"@type":"Question","name":"What are the other resources and offers provided by The Knowledge Academy?   ","acceptedAnswer":{"@type":"Answer","text":"The Knowledge Academy takes global learning to new heights, offering over 30,000 online courses across 490+ locations in 220 countries. This expansive reach ensures accessibility and convenience for learners worldwide.\u00a0\u00a0\r\n\r\nAlongside our diverse Online Course Catalogue, encompassing 17 major categories, we go the extra mile by providing a plethora of free educational Online Resources like News updates, Blogs, videos, webinars, and interview questions. Tailoring learning experiences further, professionals can maximise value with customisable Course Bundles of TKA.\u00a0\r\n"}},{"@type":"Question","name":"What is Knowledge Pass, and how does it work?  ","acceptedAnswer":{"@type":"Answer","text":"The Knowledge Academy\u2019s Knowledge Pass, a prepaid voucher, adds another layer of flexibility, allowing course bookings over a 12-month period. Join us on a journey where education knows no bounds.\u00a0\r\n"}},{"@type":"Question","name":"What are related Programming courses and blogs provided by The Knowledge Academy? ","acceptedAnswer":{"@type":"Answer","text":"The Knowledge Academy offers various Programming courses, including Python Programming Course, Visual Basic Course and R Programming Course. These courses cater to different skill levels, providing comprehensive insights into What is Object Oriented Programming (OOP).\u00a0\u00a0\u00a0\r\n\r\nOur Programming blogs cover a range of topics related to Programming, offering valuable resources, best practices, and industry insights. Whether you are a beginner or looking to advance your Programming skills, The Knowledge Academy's diverse courses and informative blogs have you covered.\u00a0\r\n"}}]}</script>                        </div>
+                    </div>
+
+                    <div class="venue-container">
+                        <div class="blog-detail-heading">
+                            <h2>Upcoming Programming & DevOps Resources <span>Batches & Dates</span></h2>
+                        </div>
+                        <div class="course-box-list">
+                            <div class="course-box">
+                                <div class="course-highlight">
+                                    <p>Date</p>
+                                </div>
+                                <div class="course-detail"> <img src="/_public/images/pla_images/building.svg" alt="building">
+                                    <span> Python Course</span>
+                                </div>
+                                <div class="course-list">
+                                    <!-- COURSE DATES CACHE [coursedatelist_70b107a81f5572c304c85f121ffc78fc.html] -->
+
+<div class="course-item"><a href="https://www.theknowledgeacademy.com/courses/programming-training/python-programming-training/" class="course-info">Python Course</a><div class="course-content"><p>Mon 20th Jan 2025</p></div><div class="all-buttons"> 
+                                        <a data-href="#" class="yellow-filled open-popup" data-coursedeliveryenq="2" data-enquirytype="2" data-coursename="Python Course" data-coursepageid="49098469" data-courseid="739" data-courselocationid="739" data-price="2495" data-coursedate="20/01/2025">
+                                            Enquire Now</a> 
+                                </div></div><div class="course-item"><a href="https://www.theknowledgeacademy.com/courses/programming-training/python-programming-training/" class="course-info">Python Course</a><div class="course-content"><p>Mon 24th Mar 2025</p></div><div class="all-buttons"> 
+                                        <a data-href="#" class="yellow-filled open-popup" data-coursedeliveryenq="2" data-enquirytype="2" data-coursename="Python Course" data-coursepageid="49098469" data-courseid="739" data-courselocationid="739" data-price="2495" data-coursedate="24/03/2025">
+                                            Enquire Now</a> 
+                                </div></div><div class="course-item"><a href="https://www.theknowledgeacademy.com/courses/programming-training/python-programming-training/" class="course-info">Python Course</a><div class="course-content"><p>Mon 26th May 2025</p></div><div class="all-buttons"> 
+                                        <a data-href="#" class="yellow-filled open-popup" data-coursedeliveryenq="2" data-enquirytype="2" data-coursename="Python Course" data-coursepageid="49098469" data-courseid="739" data-courselocationid="739" data-price="2495" data-coursedate="26/05/2025">
+                                            Enquire Now</a> 
+                                </div></div><div class="course-item"><a href="https://www.theknowledgeacademy.com/courses/programming-training/python-programming-training/" class="course-info">Python Course</a><div class="course-content"><p>Mon 28th Jul 2025</p></div><div class="all-buttons"> 
+                                        <a data-href="#" class="yellow-filled open-popup" data-coursedeliveryenq="2" data-enquirytype="2" data-coursename="Python Course" data-coursepageid="49098469" data-courseid="739" data-courselocationid="739" data-price="2495" data-coursedate="28/07/2025">
+                                            Enquire Now</a> 
+                                </div></div><div class="course-item"><a href="https://www.theknowledgeacademy.com/courses/programming-training/python-programming-training/" class="course-info">Python Course</a><div class="course-content"><p>Mon 22nd Sep 2025</p></div><div class="all-buttons"> 
+                                        <a data-href="#" class="yellow-filled open-popup" data-coursedeliveryenq="2" data-enquirytype="2" data-coursename="Python Course" data-coursepageid="49098469" data-courseid="739" data-courselocationid="739" data-price="2495" data-coursedate="22/09/2025">
+                                            Enquire Now</a> 
+                                </div></div><div class="course-item"><a href="https://www.theknowledgeacademy.com/courses/programming-training/python-programming-training/" class="course-info">Python Course</a><div class="course-content"><p>Mon 17th Nov 2025</p></div><div class="all-buttons"> 
+                                        <a data-href="#" class="yellow-filled open-popup" data-coursedeliveryenq="2" data-enquirytype="2" data-coursename="Python Course" data-coursepageid="49098469" data-courseid="739" data-courselocationid="739" data-price="2495" data-coursedate="17/11/2025">
+                                            Enquire Now</a> 
+                                </div></div>                                </div>
+                                <button id="load" class="view-btn">Load More</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    
+                </div>
+                <!-- Center Div -->
+
+                <!-- Right Div -->
+                <div class="form-blogcontent">
+                    <form class="form" method="post" id="enq-form-blog" action="https://www.theknowledgeacademy.com/thank-you/">
+                        <input type="hidden" name="countryConfigId" id="countryConfigIdEnqHome" value="1"/>
+                        <input type="hidden" name="countryCode" id="countryCodeEnqNews" value="uk" />
+                        <input type="hidden" name="countryId" id="countryIdEnqHome" value="225" />
+                        <input type="hidden" name="topicPageId" id="topicPageIdEnq" value="49098391">
+                        <input type="hidden" name="isAdvert" id="isAdvertEnqHome" value="1" />
+                        <input type="hidden" name="enquiryTypeId" id="enquiryTypeIdHome" value="1094" />
+                        <input type="hidden" name="countryPhoneCode" id="countryPhoneCode" />
+                        <input type="hidden" name="url" value="www.theknowledgeacademy.com/blog/how-to-run-python-scripts/">
+                        <input type="hidden" name="utm_gclid" id="utm_gclid" value="">
+                        <div style="visibility:hidden;pointer-events:none;width:0;height:0;position:absolute;top:-9999px;left:-9999px;z-index:-1;" tabindex="-1">
+                            <input type="text" name="phone" class="phonenumber">
+                        </div>
+                        <div class="blogdetail-heading blogdetail-center-heading">
+                            <h2>Get A Quote</h2>
+                        </div>
+                        <div class="forms">
+
+                            <div class="input-fields funding fundingTypeFormHome">
+                                <p>WHO WILL BE FUNDING THE COURSE?</p>
+                                <label class="select-name select-active">
+                                    <input type="radio" class="select-hide fundingTypeEnqBlog" name="fundingTypeEnq" value="1" checked="checked">
+                                    <p>My employer</p>
+                                </label>
+                                <label class="select-name">
+                                    <input type="radio" class="select-hide fundingTypeEnqBlog" name="fundingTypeEnq" value="2">
+                                    <p>I will</p>
+                                </label>
+                                <label class="select-name">
+                                    <input type="radio" class="select-hide fundingTypeEnqBlog" name="fundingTypeEnq" value="3">
+                                    <p>Not sure</p>
+                                </label>
+                            </div>
+                            <div class="input-fields name nameEnqBlog">
+                                <label><span>*</span> FULL NAME <span class="error nameEnqBlogError">Please enter your name</span></label>
+                                <input type="text" name="name" id="nameEnqNews" placeholder="" value="">
+                            </div>
+                            <div class="input-fields email emailEnqBlog">
+                                <label><span>*</span>
+                                <span id="emailLabelSpan" style="color: #868686;"> COMPANY EMAIL</span>
+                                <span class="error emailEnqBlogError">Please enter a valid email</span></label>
+                                <input type="email" name="email" id="emailEnqNews" placeholder="me@email.com" value="">
+                            </div>
+                            <div class="input-fields mobile mobileEnqBlog">
+                                <label><span>*</span> MOBILE <span class="error mobileEnqBlogError">Enter valid number/country code</span></label>
+                                <div class="mob">
+                                    <div class="phonecode-field">
+                                            <select class="country-code-new"></select>
+                                            <span class="prefix-new"></span>
+                                        <input class="telephone" type="text" name="mobile" id="mobileEnqNews" value="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input-fields input-message">
+                                <label>MESSAGE <p>(OPTIONAL)</p></label>
+                                <textarea class="message" placeholder="" id="messageEnqHome" name="message" autocomplete="off" style="resize: none;"></textarea>
+                            </div>
+                            <div style="visibility:hidden;pointer-events:none;width:0;height:0;position:absolute;top:-9999px;left:-9999px;z-index:-1;" tabindex="-1">
+                                <input type="text" name="coursecode" id="coursecodehome" value="" class="price" tabindex="-1">
+                            </div>
+                            <div class="consent-main">
+                                <!-- <div class="consent">
+                                    <input type="checkbox" name="marketing_consent" id="marketingCheckHome">
+                                    <label for="marketingCheckHome">I wish to sign up to our email marketing, offers and discounts</label>
+                                </div> -->
+                                <div class="consent">
+                                    <p>By submitting your details you agree to be contacted in order to respond to your enquiry</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-btn">
+                            <div class="course-buttons package-side">
+                                <button class="yellow-filled blogEngSend">Send enquiry</button>
+                            </div>
+                        </div>
+                    </form>
+                    <!-- <div class="course-outer">
+                        <b>Useful Tags</b>
+                        <ul class="course-inner">
+                            <li> <a>ITIL </a></li>
+                            <li> <a>PRINCE2 </a></li>
+                            <li> <a>Business Analysis </a></li>
+                            <li> <a>Lean Six Sigma Certification </a></li>
+                            <li> <a>Togaf </a></li>
+                            <li> <a>ITIL </a></li>
+                            <li> <a>PRINCE2 </a></li>
+                            <li> <a>Business Analysis </a></li>
+                            <li> <a>Lean Six Sigma Certification </a></li>
+                            <li> <a>Togaf </a></li>
+
+                        </ul>
+                    </div> -->
+
+                </div>
+                <!-- End Right Div -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- End Blog-Deatil Query Section -->
+
+    <!-- <div id="share-blog-main" class="share-popup-main">
+        <div class="blog-share-content">
+            <div class="blog-social-links">
+                <h4>Share this course</h4>
+                <div class="accounts" style="display: flex;">
+                    <a href="https://twitter.com/TKA_Training" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                    <a href="https://en-gb.facebook.com/The.Knowledge.Academy.Ltd/" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/the_knowledge_academy/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="text-input">
+                <input class="form-control" type="text" id="text" value="https://www.udemy.com/share/103IHM/">
+                <a id="btn_copy">Copy</a>
+            </div>
+            <a href="#" class="share-modal-close">&times;</a>
+        </div>
+    </div> -->
+
+
+</main>
+
+<div class="friday-popup open-popup-black">
+    <div class="snowflakes" aria-hidden="true"></div>
+    <form class="form" method="post" id="enq-friday-popup">
+        <input type="hidden" name="countryConfigId" id="countryConfigIdEnqBlack" />
+        <input type="hidden" name="countryCode" id="countryCodeEnqBlack" />
+        <input type="hidden" name="countryId" id="countryIdEnqBlack" />
+        <input type="hidden" name="enquiryTypeId" id="enquiryTypeIdBlack" value="1099" />
+        <input type="hidden" name="countryPhoneCode" id="countryPhoneCodeBlack" />
+        <input type="hidden" name="coursePageId" id="coursePageIdEnq" />
+        <input type="hidden" name="courseId" id="courseIdEnq" />
+        <input type="hidden" name="courseName" id="courseNameEnq" />
+        <input type="hidden" name="topicPageId" id="topicPageIdEnq" />
+        <input type="hidden" name="discountedPricing" id="discountedPricing" value="1" />
+        <input type="hidden" name="topicName" id="topicNameEnq" />
+        <input type="hidden" name="url" id="urlBlack" value="www.theknowledgeacademy.com/blog/how-to-run-python-scripts/" />
+        <input type="hidden" name="utm_gclid" id="utm_gclidBlack" value="">
+        <div style="visibility:hidden;pointer-events:none;width:0;height:0;position:absolute;top:-9999px;left:-9999px;z-index:-1;" tabindex="-1">
+            <input type="text" name="phone" class="phonenumber">
+        </div>
+        <span class="friday-cross"><img src='/_public/images/career/cross.svg' alt="cross"></span>
+        <div class="friday-heading">
+            <h2><span>BIGGEST<br/></span> NEW YEAR <b>SALE!</b></h2>
+        </div>
+        <div class="form-content">
+            <div class="tabs-input funding fundingTypeFormHome">
+                <p><img src="/_public/images/home/red-star.png" alt="red-star">WHO WILL BE FUNDING THE COURSE?</p>
+                <label class="select-name select-active">
+                    <input type="radio" class="select-hide fundingTypeEnqBlack" name="fundingTypeEnq" value="1"  checked="checked">
+                    <p>My employer</p>
+                </label>
+                <label class="select-name">
+                    <input type="radio" class="select-hide fundingTypeEnqBlack" name="fundingTypeEnq" value="2">
+                    <p>I will</p>
+                </label>
+                <label class="select-name">
+                    <input type="radio" class="select-hide fundingTypeEnqBlack" name="fundingTypeEnq" value="3">
+                    <p>Not sure</p>
+                </label>
+            </div>
+
+            <div class="input-list">
+                <div class="input-fields name nameEnqBlog">
+                    <label for="nameEnqBlog">
+                        <img src="/_public/images/home/red-star.png" alt="red-star">
+                        FULL NAME
+                        <span class="error nameEnqBlogError">Enter your name</span>
+                    </label>
+                    <input type="text" name="name" id="nameEnqBlog" placeholder="" value="" autocomplete="off">
+                </div>
+                <div class="input-fields email emailEnqBlog">
+                    <label for="emailEnqBlog">
+                        <img src="/_public/images/home/red-star.png" alt="red-star">
+                        <span id="emailLabelSpan"> COMPANY EMAIL</span>
+                        <span class="error emailEnqBlogError">Enter a valid email</span>
+                    </label>
+                    <input type="email" name="email" id="emailEnqBlog" placeholder="me@email.com" value="" autocomplete="off">
+                </div>
+                <div class="input-fields mobile mobileEnqBlog">
+                    <label for="mobileEnqBlog">
+                        <img src="/_public/images/home/red-star.png" alt="red-star">
+                        MOBILE
+                        <span class="error mobileEnqBlogError">Enter valid number/country code</span>
+                    </label>
+                    <div class="mob">
+                        <div class="phonecode-field">
+                            <select class="country-code" aria-label="Country Code"></select>
+                            <span class="prefix"></span>
+                            <input class="telephone" type="text" name="mobile" id="mobileEnqBlog" value="">
+                        </div>
+                    </div>
+                </div>
+                <div class="input-fields job jobEnqBlack">
+                    <label for="jobEnqBlack"><img src="/_public/images/home/red-star.png" alt="red-star"> JOB TITLE</label>
+                    <input type="text" name="job" id="jobEnqBlack" placeholder="Project Manager"  autocomplete="off">
+                </div>
+                <div class="input-fields input-message">
+                    <label for="messageEnqHome">MESSAGE (Optional)</label>
+                    <textarea class="message" placeholder="" id="messageEnqHome" name="message" autocomplete="off"></textarea>
+                </div>
+            </div>
+            <div class="consent-error">
+                <p>We cannot process your enquiry without contacting you, please tick to confirm your
+                    consent to us for contacting you about your enquiry.</p>
+            </div>
+            <!-- <div class="form-consent">
+                <input type="checkbox" id="marketing_consent">
+                <label for="marketing_consent">I wish to sign up to our email marketing offers and
+                    discounts</label>
+            </div> -->
+            <div class="form-consent">
+                <p>By submitting your details you agree to be contacted in order to respond to your
+                    enquiry.</p>
+            </div>
+            <div class="all-buttons">
+                <button class="yellow-filled blackEngSend">
+                    GET UP TO 40% OFF
+                </button>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="search-popup">
+    <div class="popup">
+        <div class="popup-title">
+            <b>What are you looking for?</b>
+            <div class="header-close-btn"><img src="/_public/images/home/search-close.svg" alt="close" ><p>close</p></div>
+        </div>
+        <div class="inner-search" id="search-list">
+            <div class="icon"><img src="/_public/images/home/header-search.svg" alt="search-icon"></div>
+            <input type="text" class="head-search auto-complete-course courseIdLookupHeader" placeholder="Search for a course or topic" name="search">
+            <img class="mic" onclick="startDictation(1)" src="/_public/images/home/voice.svg" alt="home-voice" />
+        </div>
+        <div class="no-course-topic" style="display:none;">
+            <div class="text">
+                <b>Sorry! Looks like we are having trouble finding the course you’re looking for.</b>
+                <p>We may not have the course you’re looking for. If you <a href="javascript:void(0)" class="open-contact-popup" data-enquirytype="5">enquire</a> or give us a call on <a href="tel:01344203999">01344203999</a> and speak to our training experts, we may still be able to help with your training requirements.</p>
+                <div class="all-buttons">
+                    <a href="javascript:void(0)" class="yellow-filled open-contact-popup" data-enquirytype="5">Enquire now</a>
+                    <a href="https://www.theknowledgeacademy.com/courses/" class="simple-purple">See full course catalogue <img src="/_public/images/home/cta-arrow.svg" alt="price"></a>
+                </div>
+            </div>
+        </div>
+        <input class="courseIdHeader" value="" name="courseId" type="hidden" />
+        <input class="topicIdHeader" name="topicId" type="hidden" />
+        <div class="related-topics">
+            <p>Or select from our popular topics</p>
+            <ul>
+                <li><a href=https://www.theknowledgeacademy.com/courses/prince2-training/>PRINCE2®</a></li><li><a href=https://www.theknowledgeacademy.com/courses/itil-training/>ITIL® Certification</a></li><li><a href=https://www.theknowledgeacademy.com/courses/lean-six-sigma-training/>Lean Six Sigma Certification</a></li><li><a href=https://www.theknowledgeacademy.com/courses/agile-training/>Agile</a></li><li><a href=https://www.theknowledgeacademy.com/courses/scrum-training/>Scrum Certification</a></li><li><a href=https://www.theknowledgeacademy.com/courses/pmp-training/>PMP®</a></li><li><a href=https://www.theknowledgeacademy.com/courses/apmp-training/>APMP</a></li><li><a href=https://www.theknowledgeacademy.com/courses/togaf-training/>TOGAF®</a></li><li><a href=https://www.theknowledgeacademy.com/courses/iso-9001-training/>ISO 9001 Certification</a></li><li><a href=https://www.theknowledgeacademy.com/courses/archimate-training/>ArchiMate®</a></li><li><a href=https://www.theknowledgeacademy.com/courses/change-management-training/>Change Management Certification</a></li><li><a href=https://www.theknowledgeacademy.com/courses/microsoft-azure-training/>Microsoft Azure Certification</a></li><li><a href=https://www.theknowledgeacademy.com/courses/gdpr-training/>GDPR</a></li><li><a href=https://www.theknowledgeacademy.com/courses/cissp-training/>CISSP</a></li><li><a href=https://www.theknowledgeacademy.com/courses/microsoft-excel-training/>Microsoft Excel Courses</a></li><li><a href="https://www.theknowledgeacademy.com/courses/">Explore more courses<i class="fas fa-angle-right"></i></a></li>            </ul>
+        </div>
+        <!--<div class="close-btn-bottom close-btn"><img src="/_public/images/home/search-close.svg" alt="close"><p>close</p></div>-->
+        <p class="esc-close">Press esc to close</p>
+    </div>
+</div>
+<div class="enquire-home courseenquire-popup animated">
+    <div class="popup contact-popup">
+        <div class="popup-text">
+            <div class="cross-close" id="cross-icon"><img src="/_public/images/home/search-close.svg" alt="close">
+                <p>close</p>
+            </div>
+            <b>Talk to a learning expert</b>
+            <p>Fill out your&nbsp;<span>contact details</span>&nbsp;below and our training experts will be in touch.</p>
+            <p><img src="/_public/images/home/alert.svg" alt="alert">If you wish to make any changes to your course, please
+                <a href="https://www.theknowledgeacademy.com/tickets/">log a ticket</a> and choose the category ‘booking change’</p>
+        </div>
+        <form class="contact-form contact-home" method="post" id="enq-form-home" action="https://www.theknowledgeacademy.com/thank-you/">
+            <input type="hidden" name="countryConfigId" id="countryConfigIdEnqHome" />
+            <input type="hidden" name="countryCode" id="countryCodeEnqHome" />
+            <input type="hidden" name="countryId" id="countryIdEnqHome" />
+            <input type="hidden" name="isAdvert" id="isAdvertEnqHome" />
+            <input type="hidden" name="enquiryTypeId" id="enquiryTypeIdHome" />
+            <input type="hidden" name="countryPhoneCode" id="countryPhoneCode" />
+            <input type="hidden" name="utm_source" id="utm_source" value="">
+            <input type="hidden" name="utm_campaign" id="utm_campaign" value="">
+            <input type="hidden" name="utm_gclid" id="utm_gclid" value="">
+            <div style="visibility:hidden;pointer-events:none;width:0;height:0;position:absolute;top:-9999px;left:-9999px;z-index:-1;" tabindex="-1">
+                <input type="text" name="phone" class="phonenumber">
+            </div>
+
+            <p class="fill-out">Fill out your &nbsp;<span>contact details</span>&nbsp; below</p>
+
+            <div class="forms">
+                <div class="input-fields name nameEnqHome">
+                    <label for="nameEnqHome"><span>*</span> FULL NAME <span class="error nameEnqHomeError">Please enter your name</span></label>
+                    <input type="text" name="name" id="nameEnqHome" placeholder="" value="">
+                </div>
+                <div class="input-fields funding fundingTypeFormHome">
+                    <p>WHO WILL BE FUNDING THE COURSE?</p>
+                    <label class="select-name select-active">
+                        <input type="radio" class="select-hide fundingTypeEnqHome" name="fundingTypeEnq" value="1" checked="checked">
+                        <p>My employer</p>
+                    </label>
+                    <label class="select-name">
+                        <input type="radio" class="select-hide fundingTypeEnqHome" name="fundingTypeEnq" value="2">
+                        <p>I will</p>
+                    </label>
+                    <label class="select-name">
+                        <input type="radio" class="select-hide fundingTypeEnqHome" name="fundingTypeEnq" value="3">
+                        <p>Not sure</p>
+                    </label>
+                </div>
+                <div class="input-fields email emailEnqHome">
+                    <label for="emailEnqHome"><span>*</span> EMAIL <span class="error emailEnqHomeError">Please enter a valid email</span></label>
+                    <input type="email" name="email" id="emailEnqHome" placeholder="me@email.com" value="">
+                </div>
+                <div class="input-fields mobile mobileEnqHome">
+                    <label for="mobileEnqHome"><span>*</span> MOBILE <span class="error mobileEnqHomeError">Please enter a valid number</span></label>
+                    <div class="mob">
+                        <div class="phonecode-field">
+                            <select class="country-code" aria-label="Country Code"></select>
+                            <span class="prefix">+44</span>
+                            <input class="telephone" type="text" name="mobile" id="mobileEnqHome" value="">
+                        </div>
+                    </div>
+                </div>
+                <div class="input-fields company companyEnqHome" style="display: none;">
+                    <label for="companyEnqHome"><span>*</span>COMPANY WEBSITE<span class="error companyEnqHomeError">Please enter your company’s website</span></label>
+                    <input type="text" name="company" id="companyEnqHome" placeholder="www.theknowledgeacademy.com" value="">
+                </div>
+                <div class="input-fields job jobEnqHome" style="display: none;">
+                    <label for="jobEnqHome"><span>*</span> JOB TITLE <span class="error jobEnqHomeError">Please enter your job title</span></label>
+                    <input type="text" name="job" id="jobEnqHome" placeholder="" value="">
+                </div>
+                <div class="input-fields input-message">
+                    <label for="messageEnqHome">MESSAGE <p>(OPTIONAL)</p></label>
+                    <textarea class="message" placeholder="" id="messageEnqHome" name="message" autocomplete="off" style="resize: none;"></textarea>
+                </div>
+                <div style="visibility:hidden;pointer-events:none;width:0;height:0;position:absolute;top:-9999px;left:-9999px;z-index:-1;" tabindex="-1">
+                    <input type="text" name="coursecode" id="coursecodehome" value="" class="price" tabindex="-1">
+                </div>
+                <div class="consent-main">
+                    <div class="consent">
+                        <input type="checkbox" name="marketing_consent" id="marketingCheckHome">
+                        <label for="marketingCheckHome">I wish to sign up to our email marketing, offers and discounts</label>
+                    </div>
+                    <div class="consent">
+                        <p>By submitting your details you agree to be contacted in order to respond to your enquiry</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main-btn">
+                <div class="course-buttons package-side">
+                    <button class="yellow-filled homeEnqSend">Send enquiry</button>
+                </div>
+                <div class="cross-close" id="cross-icon"><img src="/_public/images/home/search-close.svg" alt="close">
+                    <p>close</p>
+                </div>
+                <p class="esc-text">Press esc to close</p>
+            </div>
+        </form>
+    </div>
+    <div class="thanks-message-contact">
+        <div class="main-area">
+            <div class="main-message-box">
+                <div class="cross-close"><img src="/_public/images/home/search-close.svg" alt="close">
+                    <p>close</p>
+                </div>
+                <div class="inner-content">
+                    <p>Thank you for your enquiry!</p>
+                    <p>One of our training experts will be in touch shortly to go over your training requirements.</p>
+                </div>
+            </div>
+            <div class="thanku-btn">
+                <div class="course-buttons">
+                    <a href="javascript:void(0)" class="yellow-filled" id="close-home-contact">Close</a>
+                </div>
+                <div class="cross-close"><img src="/_public/images/home/search-close.svg" alt="close">
+                    <p>close</p>
+                </div>
+                <p class="esc-close">Press esc to close</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="courseenquire-popup animated fadeInLeft">
+    <div class="popup" id="form1">
+        <div class="popup-title">
+            <div class="close-btn" id="close-icon"><img src="/_public/images/course/back-btn.svg" alt="close" class="back"><img src="/_public/images/course/close.svg" alt="close" class="closed"><p class="info1">Back to Course Information</p></div>
+        </div>
+        <form class="contact-form" method="post" id="enq-form-1">
+            <input type="hidden" name="multiEnquiryData" id="multiEnquiryData" />
+            <input type="hidden" name="countryConfigId" id="countryConfigIdEnq" />
+            <input type="hidden" name="countryCode" id="countryCodeEnq" />
+            <input type="hidden" name="countryId" id="countryIdEnq" />
+            <input type="hidden" name="isAdvert" id="isAdvertEnq" />
+            <input type="hidden" name="coursePageId" id="coursePageIdEnq" />
+            <input type="hidden" name="courseId" id="courseIdEnq" />
+            <input type="hidden" name="courseName" id="courseNameEnq" />
+            <input type="hidden" name="topicPageId" id="topicPageIdEnq" />
+            <input type="hidden" name="topicName" id="topicNameEnq" />
+            <input type="hidden" name="courseLocationId" id="courseLocationIdEnq" />
+            <input type="hidden" name="price" id="price" />
+            <input type="hidden" name="locationId" id="locationIdEnq" />
+            <input type="hidden" name="courseDate" id="courseDateEnq" />
+            <input type="hidden" name="courseDeliveryEnq" id="courseDeliveryEnq" />
+            <input type="hidden" name="enquiryTypeId" id="enquiryTypeId" />
+            <input type="hidden" name="bundleId" id="bundleId" />
+            <input type="hidden" name="bundleURL" id="bundleURL" />
+            <input type="hidden" name="topicEnqFlag" id="topicEnqFlag" />
+            <input type="hidden" name="courseLocationEnqFlag" id="courseLocationEnqFlag" />
+            <input type="hidden" name="downloadlink" id="downloadlink" />
+            <input type="hidden" name="url" id="url" />
+            <input type="hidden" name="utm_source" id="utm_source" value="">
+            <input type="hidden" name="utm_campaign" id="utm_campaign" value="">
+            <input type="hidden" name="utm_gclid" id="utm_gclid" value="">
+            <div style="visibility:hidden;pointer-events:none;width:0;height:0;position:absolute;top:-9999px;left:-9999px;z-index:-1;" tabindex="-1">
+                <input type="text" name="phone" class="phonenumber">
+            </div>
+            <div id="prince2-div" class="prince2-div" style="display:none;">
+                <p class="para-one" >Enquire Now
+                    <span class="close-new">
+                        <img src="/_public/images/home/close-new.svg" alt="close" width="16">
+                    </span>
+                </p>
+                <p class="para-two">
+                    <img src="/_public/images/home/flash.svg" alt="close" width="16">Enquiring for - 20% off PRINCE2® 7th edition
+                </p>
+            </div>
+
+            <p>Fill out your <span>contact details</span> below so we can get in touch with you regarding your training requirements.</p>
+            <div class="forms">
+                <div class="input-fields funding fundingTypeForm1">
+                    <p><span>*</span> WHO WILL BE FUNDING THE COURSE?</p>
+                    <label class="select-name select-active">
+                        <input type="radio" class="select-hide fundingTypeEnq" name="fundingTypeEnq" value="1" checked="checked">
+                        <p>My employer</p>
+                    </label>
+                    <label class="select-name">
+                        <input type="radio" class="select-hide fundingTypeEnq" name="fundingTypeEnq" value="2">
+                        <p>I will</p>
+                    </label>
+                    <label class="select-name">
+                        <input type="radio" class="select-hide fundingTypeEnq" name="fundingTypeEnq" value="3">
+                        <p>Not sure</p>
+                    </label>
+                </div>
+                <div class="input-fields name nameEnq">
+                    <label for="nameEnq"><span>*</span> FULL NAME <span class="error nameEnqError">Please enter your name</span></label>
+                    <input type="text" name="name" id="nameEnq" placeholder="">
+                </div>
+                <div class="input-fields email emailEnq">
+                    <label for="emailEnq"><span>*</span><span id="emailLabelSpan" style="color: #868686;"> COMPANY EMAIL</span> <span class="error emailEnqError">Please enter a valid email</span></label>
+                    <input type="email" name="email" id="emailEnq" placeholder="me@company.com">
+                </div>
+                <div class="input-fields mobile mobileEnq">
+                    <label for="mobileEnq"><span>*</span> MOBILE <span class="error mobileEnqError">Please enter a valid number</span></label>
+                    <div class="mob">
+                        <div class="phonecode-field">
+                            <select class="country-code" aria-label="Country Code"></select>
+                            <span class="prefix">+44</span>
+                            <input type="tel" pattern="[0-9.]+" name="mobile" class="telephone" id="mobileEnq">
+                        </div>
+                    </div>
+                </div>
+                <!--                        <div class="input-fields company companyNameEnq">-->
+                <!--                            <label for="companyNameEnq">COMPANY NAME <p>(OPTIONAL)</p></label>-->
+                <!--                            <input type="text" name="companyName" id="companyNameEnq" placeholder="" value="">-->
+                <!--                        </div>-->
+                <div class="input-fields companyEnq company-input">
+                    <label for="companyEnq"><span>*</span>COMPANY WEBSITE<span class="error companyEnqError">Please enter company's website</span></label>
+                    <input type="text" name="company" id="companyEnq" placeholder="www.theknowledgeacademy.com">
+                </div>
+                <div class="input-fields job jobEnq">
+                    <label for="jobEnq"><span>*</span> JOB TITLE<span class="error jobEnqError">Please enter your job title</span></label>
+                    <input type="text" name="job" id="jobEnq" placeholder="Project Manager">
+                </div>
+<!--                <div class="input-fields funding preferredContact1">-->
+<!--                    <p>Preferred Contact Method</p>-->
+<!--                    <label class="select-name">-->
+<!--                        <input type="radio" class="select-hide preferredContact" name="preferredContact" value="1">-->
+<!--                        <p>Phone</p>-->
+<!--                    </label>-->
+<!--                    <label class="select-name">-->
+<!--                        <input type="radio" class="select-hide preferredContact" name="preferredContact" value="2">-->
+<!--                        <p>Email</p>-->
+<!--                    </label>-->
+<!--                    <label class="select-name select-active">-->
+<!--                        <input type="radio" class="select-hide preferredContact" name="preferredContact" value="3" checked="checked">-->
+<!--                        <p>No preference</p>-->
+<!--                    </label>-->
+<!--                </div>-->
+                <div class="input-fields input-message">
+                    <label for="messageEnq">MESSAGE <p>(OPTIONAL)</p></label>
+                    <textarea class="message" id="messageEnq" name="message" autocomplete="off" style="resize: none;"></textarea>
+                </div>
+                <div style="visibility:hidden;pointer-events:none;width:0;height:0;position:absolute;top:-9999px;left:-9999px;z-index:-1;" tabindex="-1">
+                    <input type="text" name="coursecode" id="coursecodecourse" value="" class="price">
+                </div>
+                <div class="consent-main">
+                    <div class="consent">
+                        <input type="checkbox" name="marketingCheck" id="marketingCheck">
+                        <label for="marketingCheck">I wish to sign up to our email marketing, offers and discounts</label>
+                    </div>
+                    <div class="consent">
+                        <p>By submitting your details you agree to be contacted in order to respond to your enquiry</p>
+                    </div>
+                </div>
+            </div>
+            <div class="course-buttons package-side">
+                <button class="yellow-filled firstsave">Continue <img src="/_public/images/home/cta-arrow-black.svg" alt="continue"> </button>
+            </div>
+        </form>
+    </div>
+    <div class="popup next-pop" id="form2">
+        <div class="popup-title">
+            <a class="close-btn backtofirstsave">
+                <img src="/_public/images/course/back-btn.svg" alt="close" class="back">
+                <p class="info1">Back to course information</p>
+            </a>
+            <img src="/_public/images/course/close2.svg" alt="close" class="closed" id="close-icon2">
+        </div>
+        <form class="contact-form" method="post" id="enq-form-2">
+            <!--<p>Fill out your&nbsp;<span>training details</span>&nbsp;below</p>-->
+            <p>Fill out your <span>training details</span> below so we have a better idea of what your training requirements are. </p>
+            <input type="hidden" name="enquiryIdEnq" id="enquiryIdEnq" />
+            <input type="hidden" name="enquiryDashIdEnq" id="enquiryDashIdEnq" />
+            <input type="hidden" name="fundingTypeEnqForm1" id="fundingTypeEnqForm1" value="" />
+            <input type="hidden" name="courseDate" id="courseDateEnqForm1" value="" />
+            <input type="hidden" name="courseDeliveryEnq" id="courseDeliveryEnqForm1" value="" />
+            <input type="hidden" name="fastTrack" id="fastTrack" value="1" />
+
+            <div class="forms">
+                <div class="input-fields funding noOfDelegates">
+                    <p>HOW MANY DELEGATES NEED TRAINING?</p>
+                    <label class="select-name training-name">
+                        <input type="radio" class="select-hide noOfDelegatesEnq" name="noOfDelegatesEnq" value="1">
+                        <p>1</p>
+                    </label>
+                    <label class="select-name training-name">
+                        <input type="radio" class="select-hide noOfDelegatesEnq" name="noOfDelegatesEnq" value="7">
+                        <p>2 - 7</p>
+                    </label>
+                    <label class="select-name training-name">
+                        <input type="radio" class="select-hide noOfDelegatesEnq" name="noOfDelegatesEnq" value="8">
+                        <p>8+</p>
+                    </label>
+                    <label class="select-name training-name">
+                        <input type="radio" class="select-hide noOfDelegatesEnq" name="noOfDelegatesEnq" value="0">
+                        <p>Not sure</p>
+                    </label>
+                </div>
+                <div class="input-fields funding bottom-space deliveryType">
+                    <p>HOW DO YOU WANT THE COURSE DELIVERED?</p>
+                    <label class="select-name courses-name">
+                        <input type="radio" class="select-hide deliveryTypeEnq" name="deliveryTypeEnq" value="2">
+                        <p>Online Instructor-led</p>
+                    </label>
+                    <label class="select-name courses-name">
+                        <input type="radio" class="select-hide deliveryTypeEnq" name="deliveryTypeEnq" value="3">
+                        <p>Online Self-paced</p>
+                    </label>
+                    <label class="select-name courses-name">
+                        <input type="radio" class="select-hide deliveryTypeEnq" name="deliveryTypeEnq" value="1">
+                        <p>Classroom</p>
+                    </label>
+                    <label class="select-name courses-name">
+                        <input type="radio" class="select-hide deliveryTypeEnq" name="deliveryTypeEnq" value="4">
+                        <p>Onsite</p>
+                    </label>
+                    <label class="select-name courses-name">
+                        <input type="radio" class="select-hide deliveryTypeEnq" name="deliveryTypeEnq" value="-1">
+                        <p>Not sure</p>
+                    </label>
+                </div>
+                <div class="input-fields funding courseTime">
+                    <p>WHEN WOULD YOU LIKE TO TAKE THIS COURSE?</p>
+                    <label class="select-name like-name">
+                        <input type="radio" class="select-hide courseTimeEnq" name="courseTimeEnq" value="1">
+                        <p>ASAP</p>
+                    </label>
+                    <label class="select-name like-name">
+                        <input type="radio" class="select-hide courseTimeEnq" name="courseTimeEnq" value="2">
+                        <p>Next 2 - 4 months</p>
+                    </label>
+                    <label class="select-name like-name">
+                        <input type="radio" class="select-hide courseTimeEnq" name="courseTimeEnq" value="-1">
+                        <p>Not sure</p>
+                    </label>
+                </div>
+                <div class="input-fields funding bottom-space enquireReason">
+                    <p>WHAT IS YOUR REASON FOR ENQUIRING?</p>
+                    <label class="select-name eq-name">
+                        <input type="radio" class="select-hide enquireReasonEnq" name="enquireReasonEnq" value="1">
+                        <p>Looking for some information</p>
+                    </label>
+                    <label class="select-name eq-name">
+                        <input type="radio" class="select-hide enquireReasonEnq" name="enquireReasonEnq" value="2">
+                        <p>Looking for a discount</p>
+                    </label>
+                    <label class="select-name eq-name">
+                        <input type="radio" class="select-hide enquireReasonEnq" name="enquireReasonEnq" value="3">
+                        <p>I want to book but have questions</p>
+                    </label>
+                </div>
+            </div>
+            <div class="course-buttons package-side">
+                <a href="javascript:void(0)" class="yellow-filled secondSave">Send enquiry <img src="/_public/images/home/cta-arrow-black.svg" alt="cta-black" ></a>
+            </div>
+        </form>
+    </div>
+    <div class="thanks-message">
+        <div class="back-btn">
+            <img src="/_public/images/course/back-btn.svg" alt="close" class="back">
+            <img src="/_public/images/course/close.svg" alt="close" class="closed">
+            <p class="info-text">Back to course information</p>
+        </div>
+        <div class="inner-content">
+            <div class="text">
+                <p>Thank you for your enquiry! </p>
+                <p>One of our training experts will be in touch shortly to go overy your training requirements.</p>
+            </div>
+            <div class="course-buttons">
+                <a href="javascript:void(0)" class="yellow-filled closed">Close</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="thanks-message">
+    <div class="back-btn">
+        <img src="/_public/images/course/back-btn.svg" alt="close" class="back">
+        <img src="/_public/images/course/close.svg" alt="close" class="closed">
+    </div>
+    <div class="inner-content">
+        <div class="text">
+            <p>Thank you for your enquiry! </p>
+            <p>One of our training experts will be in touch shortly to go over your training requirements.</p>
+        </div>
+        <div class="course-buttons">
+            <a href="javascript:void(0)" class="yellow-filled">Close</a>
+        </div>
+    </div>
+</div>
+<footer class="new-footer">
+    <div class="footer-maximum-width">
+        <div class="max-footer">
+            <div class="logo-content">
+                <a href="https://www.theknowledgeacademy.com/" alt="logo" class="logoo"><img src="/_public/images/home/tkalogo.svg" alt="tka-logo"></a>
+                <h3>The largest global training provider.</h3>
+                <div class="soc-links">
+                    <a href="https://www.linkedin.com/company/the-knowledge-academy/" aria-label="Linkedin" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                    <!-- <a href="https://twitter.com/TKA_Training" aria-label="Twitter" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a> -->
+                    <a href="https://twitter.com/TKA_Training" aria-label="Twitter" target="_blank"><img src="/_public/images/home/twitter-s.svg" style="width: 17px;height: 17px;" alt="The Knowledge Academy - home"></a>
+                    <a href="https://en-gb.facebook.com/The.Knowledge.Academy.Ltd/" aria-label="Facebook" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/the_knowledge_academy/" aria-label="Instagram" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.youtube.com/@TheKnowledgeAcademy." aria-label="youtube" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+
+                    <a href="https://www.quora.com/profile/The-Knowledge-Academy-13" aria-label="quora" target="_blank"><i class="fab fa-quora" aria-hidden="true"></i></a>
+                    <a href="https://in.pinterest.com/TheKnowledgeAcademy/" aria-label="pinterest"  target="_blank"><i class="fab fa-pinterest" aria-hidden="true"></i></a>
+                    <a href="https://www.slideshare.net/MarketingTKA" aria-label="slideshare" target="_blank"><i class="fab fa-slideshare" aria-hidden="true"></i></a>
+                    <a href="https://medium.com/@theknowledgeacademy" aria-label="medium" target="_blank"><img src="/_public/images/home/medium.svg" style="width: 17px;height: 17px;" alt="The Knowledge Academy - home"></a>
+                </div>
+                <div class="get-in">
+                    <ul class="list-styled">
+                        <li>T: <a href="tel:01344203999" target="_blank">01344203999</a></li>
+                        <li>E: <a href="/cdn-cgi/l/email-protection#bb9d988a8b8e809d988a8a8b809d988a8b89809d988a8a8a809d988b8d8f809d988a8a8d809d988a8b8f809d988a8b8a809d988a8b8c809d988a8a8b809d988a8a8a809d988a8a82809d988a8b83809d988a8b8a809d988a8b8b809d988a8b88809d988a8b8a809d988b828c809d988b8282809d988b828c809d988a8b8b809d988a8b8a809d988a8b82809d988a898a809d988b8f8d809d988b8282809d988a8a8a809d988a8b8280" target="_blank">&#105;&#110;&#102;&#111;&#064;&#116;&#104;&#101;&#107;&#110;&#111;&#119;&#108;&#101;&#100;&#103;&#101;&#097;&#099;&#097;&#100;&#101;&#109;&#121;&#046;&#099;&#111;&#109;</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-links-main">
+                <div class="contact-footer">
+                                        <div class="main-links mains-linked">
+                        <h4 class="link-clicked">Training</h4>
+                        <ul class="list-styled">
+                            <li><a href="https://www.theknowledgeacademy.com/courses/">Classroom Training</a></li>
+                            <li><a href="https://www.theknowledgeacademy.com/onsite/">On-site Training</a></li>
+                            <li><a href="https://www.theknowledgeacademy.com/locations/" target="_blank">Locations</a></li>
+                            <li><a href="https://www.theknowledgeacademy.com/reviews-of-training-delivery-method/" target="_blank">Delivery Methods</a></li>
+                        </ul>
+                    </div>
+                                        <div class="main-links mains-linked">
+                        <h4 class="link-clicked">About</h4>
+                        <ul class="list-styled">
+                            <li><a href="https://www.theknowledgeacademy.com/about/" target="_blank">About Us</a></li>
+                            <li><a href="https://www.theknowledgeacademy.com/clients/" target="_blank">Clients</a></li>
+                            <li><a href="javascript:void(0)" class="open-contact-popup" data-enquirytype="4">Contact Us</a></li>
+                            <li><a href="https://www.theknowledgeacademy.com/reviews/" target="_blank">Reviews</a></li>
+                        </ul>
+                    </div>
+                    <div class="main-links mains-linked">
+                        <h4 class="link-clicked">Discover</h4>
+                        <ul class="list-styled">
+                            <li><a href="https://www.theknowledgeacademy.com/news/" target="_blank">News</a></li>
+                            <li><a href="https://www.theknowledgeacademy.com/resources/" target="_blank">Blogs</a></li>
+                            <li><a href="https://www.theknowledgeacademy.com/careers/" target="_blank">Careers</a></li>
+                            <li><a href="https://www.theknowledgeacademy.com/reviews-and-case-studies/" target="_blank">Case Studies</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-all-links">
+                <div class="footer-cat-links">
+                    <p class="footer-cat-heading">Popular Certification Courses</p>
+                    <div class="footer-cat-a">
+                        <a href="https://www.theknowledgeacademy.com/courses/prince2-training/prince2-training/" >PRINCE2 Certification Course |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/prince2-training/prince2-agile-foundation-and-practitioner/" >PRINCE2 Agile Course |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/pmp-training/pmp-certification-training/" >PMP Certification Course |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/scrum-training/scrum-master-training/" >Scrum Master Certification Course |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/togaf-training/togaf-9-certified-part-1-2-/" >TOGAF Certification Training Course |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/agile-training/agile-training/" >AgilePM Certification Course |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/agile-training/certified-scaled-agile-framework-leading-safe-training-and-exam/" >Leading SAFe Certification Course |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/apmp-training/apmp-training/" >APM PMQ Course |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/msp-training/msp-training/" >MSP Training Course |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/itil-training/itil-foundation/" >ITIL 4 Foundation Certification Course |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/cissp-training/cissp-training/" >CISSP Certification Training |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/cisa-training/cisa-training/" >CISA Certification Training |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/cism-training/cism-training/" >CISM Certification Training Course |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/gdpr-training/certified-eu-general-data-protection-regulation-gdpr/" >GDPR Training Course |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/microsoft-excel-training/microsoft-excel-masterclass/" >Excel Training Course |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/business-intelligence-reporting/microsoft-power-bi-training/" >Power BI Training Course |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/microsoft-project-training/microsoft-project-masterclass/" >Microsoft Project Training Course |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/data-science-training/advanced-data-science-certification-training/" >Data Science Course |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/big-data-and-analytics-training/advanced-data-analytics-certification-training/" >Data Analytics Course |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/ccna-training/ccna-training-cisco-certified-network-associate/" >CCNA Certification Training Course |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/digital-transformation/digital-transformation-training/" >Digital Transformation Course |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/artificial-intelligence-tools-training/introduction-to-chatgpt-training/" >Chatgpt Training Course |</a>
+                    </div>
+                </div>
+                <div class="footer-cat-links">
+                    <p class="footer-cat-heading">Popular Course Topics</p>
+                    <div class="footer-cat-a">
+                        <a href="https://www.theknowledgeacademy.com/courses/lean-six-sigma-training/" >Lean Six Sigma Certification Courses |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/iosh-training/" >IOSH Courses Certification |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/nebosh-courses/" >Nebosh Courses Certification |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/change-management-training/" >Change Management Courses Certification |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/agile-training/" >Agile Certification Courses |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/software-testing-training/" >Software Testing Courses |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/iiba-business-analysis-training/" >IIBA Certification Course |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/itil-training/" >ITIL Certification Courses |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/iso-27001-training/" >ISO 27001 Certification Training |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/iso-9001-training/" >ISO 9001 Certification Training |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/iso-14001-training/" >ISO 14001 Certification Training |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/microsoft-azure-training/" >Microsoft Azure Certification Training Courses |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/devops/" >Devops Courses Training |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/comptia-training/" >CompTIA Certification Courses |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/amazon-aws-training/" >AWS Certification Training Courses |</a>
+                        <!-- <a href="https://www.theknowledgeacademy.com//courses/artificial-intelligence-tools-training/" >Artificial Intelligence Tools |</a> -->
+                    </div>
+                </div>
+
+                <div class="footer-cat-links">
+                    <p class="footer-cat-heading">Popular Training Categories</p>
+                    <div class="footer-cat-a">
+                        <a href="https://www.theknowledgeacademy.com/courses/project-management/" >Project Management |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/business-analysis/" >Business Analysis |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/business-improvement/" >Business Improvement |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/it-service-management/" >IT Service Management |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/it-security-and-data-protection/" >IT Security & Data Protection |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/iso-and-compliance/" >ISO & Compliance |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/office-applications/" >Office Applications |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/business-skills/" >Business Skills |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/health-and-safety/" >Health & Safety |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/microsoft-technical/" >Microsoft Technical |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/programming-and-devops/" >Programming & DevOps |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/data-analytics-and-ai/" >Data, Analytics & AI |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/ilm-cmi-leadership-and-management/" >ILM, CMI Leadership & Management |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/digital-marketing/" >Digital Marketing |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/cloud/" >Cloud Computing |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/it-infrastructure-and-networking/" >IT Infrastructure & Networking |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/advanced-technology/" >Advanced Technology |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/hr-courses/" >HR Courses |</a>
+                        <a href="https://www.theknowledgeacademy.com/courses/accounting-and-finance-courses/" >Accounting and Finance Courses |</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="bottom-content">
+                <div class="copy-right-main">
+                                        <a href="https://www.theknowledgeacademy.com/terms/" target="_blank">Terms &amp; Conditions</a>
+                    <a href="https://www.theknowledgeacademy.com/privacy-policy/" target="_blank">Privacy</a>
+                    <a href="https://www.theknowledgeacademy.com/cookies/" target="_blank">Cookies</a>
+                    <a href="https://www.theknowledgeacademy.com/modern-slavery-statement/" target="_blank">Modern Slavery Statement</a>
+                    <a href="https://www.theknowledgeacademy.com/third-party-trademarks/" target="_blank">Third Party Trademarks</a>
+                    <div class="vat">VAT                        <div class="vat-hover">
+                            <h2>VAT</h2>
+                            <p>All quoted prices are VAT- <Exclu></Exclu>sive for consumers who pay no VAT or can recover VAT.
+                                The current rate of VAT is 20% for consumers that are required to pay VAT</p>
+                        </div>
+                    </div>
+                    <div class="booking">Bookings
+                        <div class="booking-hover">
+                            <h2>Bookings</h2>
+                            <p>All course bookings are subject to availability, the website is updated periodically
+                                due to the dynamic nature of our business. Course availability can only be confirmed
+                                when you have received a course confirmation email containing your joining
+                                instructions and once payment has been authorised and collected. To check on latest
+                                availability real time please call <a href="tel:01344203999">01344203999</a></p>
+                        </div>
+                    </div>
+                    <p>Copyright 2025 - The Knowledge Academy Ltd  - All rights reserved.</p>
+                </div>
+            </div>
+        </div>    
+    </div>
+</footer>    
+<!--    <div class="cookies">-->
+<!--        <div class="header-maximum-width">-->
+<!--            <div class="cookie-content">-->
+<!--                <div class="cookie-heading"><h2>Your privacy & cookies!</h2></div>-->
+<!--                <p>Like many websites we use cookies. We care about your data and experience, so to give you the best possible experience using our site, we store a very limited amount of your data. Continuing to use this site or clicking “Accept & close” means that you agree to our use of cookies. Learn more about our <a href="--><!--privacy-policy/">privacy policy</a> and <a href="--><!--cookies/"> cookie policy</a> cookie policy</a>.</p>-->
+<!--                <div class="all-buttons">-->
+<!--                    <a href="javascript:void(0)" id="footerCookie" class="simple-purple">Accept & close</a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+    <div class="cookies">
+        <div class="header-maximum-width">
+            <div class="cookie-content"> <p>We use cookies that are essential for our site to work. Please visit our <a href="https://www.theknowledgeacademy.com/cookies/"> cookie policy</a> for more information. To accept all cookies click 'Accept & close'.</p>
+                <div class="all-buttons">
+                    <a href="javascript:void(0)" id="footerCookie" class="simple-purple">Accept & close</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script async defer="defer" src="https://kit.fontawesome.com/af0e3f8fdd.js?t=25-01-07" crossorigin="anonymous"></script>
+<link async defer="defer" rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.min.css?t=25-01-07" />
+<!-- remove when font awsome starts working-->
+<!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
+-->
+<link async defer="defer" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css?t=25-01-07" rel="stylesheet">
+   
+<link type="text/css" rel="stylesheet" href="https://www.theknowledgeacademy.com/app/stylesheets/countryselect.css?t=25-01-07"/>
+<link async defer="defer" type="text/css" rel="stylesheet" href="https://www.theknowledgeacademy.com/app/stylesheets/simplePagination.css?t=25-01-07"/>
+    <link async defer="defer" type="text/css" rel="stylesheet" href="https://www.theknowledgeacademy.com/app/stylesheets/application.css"">
+    <link async defer="defer" type="text/css" rel="stylesheet" href="https://www.theknowledgeacademy.com/app/stylesheets/products.css?t=25-01-07">
+    <script type="text/javascript" src="https://www.theknowledgeacademy.com/app/javascripts/libraries/jquery.min.js?t=25-01-07"></script>
+<script type="text/javascript" src="https://www.theknowledgeacademy.com/app/javascripts/libraries/jquery-ui.min.js?t=25-01-07"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js?t=25-01-07"></script>
+<script type="text/javascript" src="https://www.theknowledgeacademy.com/app/javascripts/libraries/jquery.countdown.min.js?t=25-01-07"></script>
+<script type="text/javascript" src="https://www.theknowledgeacademy.com/app/javascripts/libraries/jquery.simplepagination.js?t=25-01-07"></script>
+<script type="text/javascript" src="https://www.theknowledgeacademy.com/app/javascripts/libraries/intel.min.js?t=25-01-07" async defer="defer" ></script>
+<script type="text/javascript" src="https://www.theknowledgeacademy.com/app/javascripts/libraries/countryselect.js?t=25-01-07"></script>
+<script type="text/javascript" src="https://www.theknowledgeacademy.com/app/javascripts/libraries/utils.js?t=25-01-07" async defer="defer" ></script>
+<script type="text/javascript" src="https://www.theknowledgeacademy.com/app/javascripts/libraries/hover.js?t=25-01-07" async defer="defer" ></script>
+<!-- TrustBox script -->
+<script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js?t=25-01-07" async></script>
+<!-- End TrustBox script -->
+<script defer async="async" type="text/javascript">
+        function toggleIcons(e) {
+        $(e.target)
+            .prev(".panel-heading")
+            .find(".more-less")
+            .toggleClass("glyphicon-plus glyphicon-minus");
+        }
+        $(".enquire-panel").on("hidden.bs.collapse", toggleIcons);
+        $(".enquire-panel").on("shown.bs.collapse", toggleIcons);
+    </script>
+    <script type="text/javascript" src="https://www.theknowledgeacademy.com/app/javascripts/main.js?t=25-01-07" defer async="async" ></script>
+
+<!--    <a href="--><!--cyber-monday/" class="black_fri">-->
+<!--    <span>-->
+<!--        <img src="/_public/images/promo/discount.svg" alt="discount">-->
+<!--        Cyber Monday offers!-->
+<!--    </span>-->
+<!--    <span>-->
+<!--        CYBER MONDAY OFFERS - See our final prices!-->
+<!--        <img src="/_public/images/promo/nav-arrow.svg" alt="nav-arrow">-->
+<!--    </span>-->
+<!--    </a>-->
+
+</body>
+</html> 
+
+<script>
+
+    // For hide Venue container
+    if($('.blog-data h2').length == 0){
+        $('.content-item').hide();
+    }
+    else{
+        $('.content-item').show();
+    }
+
+    // For hide Faq container
+    if($('.center-container .faq-item').length == 0){
+        $('.center-container .faq-container').hide();
+    }
+    else{
+        $('.center-container .faq-container').show();
+    }
+
+    // For hide Course container
+    if($('.course-box-list .course-item').length == 0){
+        $('.center-container .venue-container').hide();
+    }
+    else{
+        $('.center-container .venue-container').show();
+    }
+
+
+    // facebook
+    document.getElementById('facebook').addEventListener('click', function () {
+        var currentURL = window.location.href;
+        // Open Facebook sharing window
+        var facebookShareUrl = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(currentURL);
+        window.open(facebookShareUrl, '_blank');
+    });
+
+    //Twitter    
+    document.getElementById('twitter').addEventListener('click', function () {
+        var currentURL = window.location.href;
+        //  Open Twitter sharing window
+        var twitterShareUrl = 'https://twitter.com/intent/tweet?url=' + encodeURIComponent(currentURL);
+        window.open(twitterShareUrl, '_blank');
+
+    });
+
+    // Linkedin  
+    document.getElementById('linkedin').addEventListener('click', function () {
+        var currentURL = window.location.href;
+        // Open linkedin sharing window   
+        var linkedinShareUrl = 'https://www.linkedin.com/cws/share?url=' + encodeURIComponent(currentURL);
+        window.open(linkedinShareUrl, '_blank');
+    });
+
+
+
+
+
+
+
+    // Smmothscroll Table of contents
+    $(document).ready(function() {
+        $.each($(".blog-data .blog-item h2"),function(index,ele){
+        $(ele).attr("id",index);
+        })
+        var courseList = $('#toc-ul'); // Select the <ul> element
+        var courseItems = $('.blog-data .blog-item h2'); // Select all <h2> elements within .course-item
+
+        courseItems.each(function() {
+            var courseTitle = $(this).text(); // Get the text content of the <h2> element
+            var courseHref = $(this).attr('id');
+            var listItem = $('<a>').text(courseTitle).attr('href', '#' + courseHref).addClass('smoothscroll'); // Create an <li> element with the course title
+            courseList.append(listItem); // Append the <li> element to the <ul>
+        });
+    });
+
+    $(function() {
+        $('a[href*="#"]')
+            .not('[href="#"]')
+            .click(function(event) {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(0) + ']');
+                    if (target.length) {
+                        event.preventDefault();
+                        $('html, body').animate({
+                            scrollTop: target.offset().top - 150
+                        }, 1000, function() {
+                        var $target = $(target);
+                        $target.focus();
+                        if ($target.is(":focus")) {
+                            return false;
+                        } else {
+                            $target.attr('tabindex','-1');
+                            $target.focus();
+                        };
+                    });
+                }
+            }
+        });
+    });
+
+    //Smmothscroll Table of contents Finish
+
+    // Start Faq Script
+    $(".ques").click(function() {
+        $(this).parent().toggleClass("active").find('.ans').slideToggle();
+        $(this).parent().siblings(".faq-item").removeClass("active").find('.ans').slideUp();
+    });
+    // End Faq Script
+
+
+    $('.course-box-list .view-btn').click(function() {
+        $(this).siblings('.course-list').toggleClass('toggle');
+        if ($(this).siblings('.course-list').hasClass("toggle")) {
+            $(this).text("Load Less");
+        } else {
+            $(this).text("Load More");
+            var identity = $(this).parents('.review-content').attr('id');
+            scrollToSpecificDiv("#" + identity);
+        }
+    });
+
+    function scrollToSpecificDiv(selector) {
+        if ($(selector).length > 0) {
+            var selectorTop = $(selector).offset().top;
+            $('html,body').animate({
+                scrollTop: selectorTop
+            }, 1000);
+        }
+    }
+
+
+    //start phone code
+    var datajson=[{"name": "...","dial_code": "+00","code": "..."},{"name": "United Kingdom","dial_code": "+44","code": "GB"},{"name": "United States","dial_code": "+1","code": "US"},{"name": "Canada","dial_code": "+1","code": "CA"},{"name": "Australia","dial_code": "+61","code": "AU"},{"name": "Germany","dial_code": "+49","code": "DE"},{"name": "Ireland","dial_code": "+353","code": "IE"},{"name": "New Zealand","dial_code": "+64","code": "NZ"},{"name": "Singapore","dial_code": "+65","code": "SG"},{"name": "Netherlands","dial_code": "+31","code": "NL"},{"name": "Hong Kong","dial_code": "+852","code": "HK"},{"name": "Saudi Arabia","dial_code": "+966","code": "SA"},{"name": "United Arab Emirates","dial_code": "+971","code": "AE"},{"name": "France","dial_code": "+33","code": "FR"},{"name": "Switzerland","dial_code": "+41","code": "CH"},{"name": "Italy","dial_code": "+39","code": "IT"},{"name": "Belgium","dial_code": "+32","code": "BE"},{"name": "Sweden","dial_code": "+46","code": "SE"},{"name": "Spain","dial_code": "+34","code": "ES"},{"name": "Denmark","dial_code": "+45","code": "DK"},{"name": "Norway","dial_code": "+47","code": "NO"},{"name": "Finland","dial_code": "+358","code": "FI"},{"name": "Qatar","dial_code": "+974","code": "QA"},{"name": "Austria","dial_code": "+43","code": "AT"},{"name": "Kuwait","dial_code": "+965","code": "KW"},{"name": "Luxembourg","dial_code": "+352","code": "LU"},{"name": "Oman","dial_code": "+968","code": "OM"},{"name": "Jordan","dial_code": "+962","code": "JO"},{"name": "Bahrain","dial_code": "+973","code": "BH"},{"name": "Malaysia","dial_code": "+60","code": "MY"},{"name": "Mexico","dial_code": "+52","code": "MX"},{"name": "South Africa","dial_code": "+27","code": "ZA"},{"name": "India","dial_code": "+91","code": "IN"},{"name": "Afghanistan","dial_code": "+93","code": "AF"},{"name": "Aland Islands","dial_code": "+358","code": "AX"},{"name": "Albania","dial_code": "+355","code": "AL"},{"name": "Algeria","dial_code": "+213","code": "DZ"},{"name": "AmericanSamoa","dial_code": "+1684","code": "AS"},{"name": "Andorra","dial_code": "+376","code": "AD"},{"name": "Angola","dial_code": "+244","code": "AO"},{"name": "Anguilla","dial_code": "+1264","code": "AI"},{"name": "Antarctica","dial_code": "+672","code": "AQ"},{"name": "Antigua and Barbuda","dial_code": "+1268","code": "AG"},{"name": "Argentina","dial_code": "+54","code": "AR"},{"name": "Armenia","dial_code": "+374","code": "AM"},{"name": "Aruba","dial_code": "+297","code": "AW"},{"name": "Azerbaijan","dial_code": "+994","code": "AZ"},{"name": "Bahamas","dial_code": "+1242","code": "BS"},{"name": "Bangladesh","dial_code": "+880","code": "BD"},{"name": "Barbados","dial_code": "+1246","code": "BB"},{"name": "Belarus","dial_code": "+375","code": "BY"},{"name": "Belize","dial_code": "+501","code": "BZ"},{"name": "Benin","dial_code": "+229","code": "BJ"},{"name": "Bermuda","dial_code": "+1441","code": "BM"},{"name": "Bhutan","dial_code": "+975","code": "BT"},{"name": "Bolivia, Plurinational State of","dial_code": "+591","code": "BO"},{"name": "Bosnia and Herzegovina","dial_code": "+387","code": "BA"},{"name": "Botswana","dial_code": "+267","code": "BW"},{"name": "Brazil","dial_code": "+55","code": "BR"},{"name": "British Indian Ocean Territory","dial_code": "+246","code": "IO"},{"name": "Brunei Darussalam","dial_code": "+673","code": "BN"},{"name": "Bulgaria","dial_code": "+359","code": "BG"},{"name": "Burkina Faso","dial_code": "+226","code": "BF"},{"name": "Burundi","dial_code": "+257","code": "BI"},{"name": "Cambodia","dial_code": "+855","code": "KH"},{"name": "Cameroon","dial_code": "+237","code": "CM"},{"name": "Cape Verde","dial_code": "+238","code": "CV"},{"name": "Cayman Islands","dial_code": "+ 345","code": "KY"},{"name": "Central African Republic","dial_code": "+236","code": "CF"},{"name": "Chad","dial_code": "+235","code": "TD"},{"name": "Chile","dial_code": "+56","code": "CL"},{"name": "China","dial_code": "+86","code": "CN"},{"name": "Christmas Island","dial_code": "+61","code": "CX"},{"name": "Cocos (Keeling) Islands","dial_code": "+61","code": "CC"},{"name": "Colombia","dial_code": "+57","code": "CO"},{"name": "Comoros","dial_code": "+269","code": "KM"},{"name": "Congo","dial_code": "+242","code": "CG"},{"name": "Congo, The Democratic Republic of the Congo","dial_code": "+243","code": "CD"},{"name": "Cook Islands","dial_code": "+682","code": "CK"},{"name": "Costa Rica","dial_code": "+506","code": "CR"},{"name": "Cote d'Ivoire","dial_code": "+225","code": "CI"},{"name": "Croatia","dial_code": "+385","code": "HR"},{"name": "Cuba","dial_code": "+53","code": "CU"},{"name": "Cyprus","dial_code": "+357","code": "CY"},{"name": "Czech Republic","dial_code": "+420","code": "CZ"},{"name": "Djibouti","dial_code": "+253","code": "DJ"},{"name": "Dominica","dial_code": "+1767","code": "DM"},{"name": "Dominican Republic","dial_code": "+1849","code": "DO"},{"name": "Ecuador","dial_code": "+593","code": "EC"},{"name": "Egypt","dial_code": "+20","code": "EG"},{"name": "El Salvador","dial_code": "+503","code": "SV"},{"name": "Equatorial Guinea","dial_code": "+240","code": "GQ"},{"name": "Eritrea","dial_code": "+291","code": "ER"},{"name": "Estonia","dial_code": "+372","code": "EE"},{"name": "Ethiopia","dial_code": "+251","code": "ET"},{"name": "Falkland Islands (Malvinas)","dial_code": "+500","code": "FK"},{"name": "Faroe Islands","dial_code": "+298","code": "FO"},{"name": "Fiji","dial_code": "+679","code": "FJ"},{"name": "French Guiana","dial_code": "+594","code": "GF"},{"name": "French Polynesia","dial_code": "+689","code": "PF"},{"name": "Gabon","dial_code": "+241","code": "GA"},{"name": "Gambia","dial_code": "+220","code": "GM"},{"name": "Georgia","dial_code": "+995","code": "GE"},{"name": "Ghana","dial_code": "+233","code": "GH"},{"name": "Gibraltar","dial_code": "+350","code": "GI"},{"name": "Greece","dial_code": "+30","code": "GR"},{"name": "Greenland","dial_code": "+299","code": "GL"},{"name": "Grenada","dial_code": "+1473","code": "GD"},{"name": "Guadeloupe","dial_code": "+590","code": "GP"},{"name": "Guam","dial_code": "+1671","code": "GU"},{"name": "Guatemala","dial_code": "+502","code": "GT"},{"name": "Guernsey","dial_code": "+44","code": "GG"},{"name": "Guinea","dial_code": "+224","code": "GN"},{"name": "Guinea-Bissau","dial_code": "+245","code": "GW"},{"name": "Guyana","dial_code": "+595","code": "GY"},{"name": "Haiti","dial_code": "+509","code": "HT"},{"name": "Holy See (Vatican City State)","dial_code": "+379","code": "VA"},{"name": "Honduras","dial_code": "+504","code": "HN"},{"name": "Hungary","dial_code": "+36","code": "HU"},{"name": "Iceland","dial_code": "+354","code": "IS"},{"name": "Indonesia","dial_code": "+62","code": "ID"},{"name": "Iran, Islamic Republic of Persian Gulf","dial_code": "+98","code": "IR"},{"name": "Iraq","dial_code": "+964","code": "IQ"},{"name": "Isle of Man","dial_code": "+44","code": "IM"},{"name": "Israel","dial_code": "+972","code": "IL"},{"name": "Jamaica","dial_code": "+1876","code": "JM"},{"name": "Japan","dial_code": "+81","code": "JP"},{"name": "Jersey","dial_code": "+44","code": "JE"},{"name": "Kazakhstan","dial_code": "+77","code": "KZ"},{"name": "Kenya","dial_code": "+254","code": "KE"},{"name": "Kiribati","dial_code": "+686","code": "KI"},{"name": "Korea, Democratic People's Republic of Korea","dial_code": "+850","code": "KP"},{"name": "Korea, Republic of South Korea","dial_code": "+82","code": "KR"},{"name": "Kyrgyzstan","dial_code": "+996","code": "KG"},{"name": "Laos","dial_code": "+856","code": "LA"},{"name": "Latvia","dial_code": "+371","code": "LV"},{"name": "Lebanon","dial_code": "+961","code": "LB"},{"name": "Lesotho","dial_code": "+266","code": "LS"},{"name": "Liberia","dial_code": "+231","code": "LR"},{"name": "Libyan Arab Jamahiriya","dial_code": "+218","code": "LY"},{"name": "Liechtenstein","dial_code": "+423","code": "LI"},{"name": "Lithuania","dial_code": "+370","code": "LT"},{"name": "Macao","dial_code": "+853","code": "MO"},{"name": "Macedonia","dial_code": "+389","code": "MK"},{"name": "Madagascar","dial_code": "+261","code": "MG"},{"name": "Malawi","dial_code": "+265","code": "MW"},{"name": "Maldives","dial_code": "+960","code": "MV"},{"name": "Mali","dial_code": "+223","code": "ML"},{"name": "Malta","dial_code": "+356","code": "MT"},{"name": "Marshall Islands","dial_code": "+692","code": "MH"},{"name": "Martinique","dial_code": "+596","code": "MQ"},{"name": "Mauritania","dial_code": "+222","code": "MR"},{"name": "Mauritius","dial_code": "+230","code": "MU"},{"name": "Mayotte","dial_code": "+262","code": "YT"},{"name": "Micronesia, Federated States of Micronesia","dial_code": "+691","code": "FM"},{"name": "Moldova","dial_code": "+373","code": "MD"},{"name": "Monaco","dial_code": "+377","code": "MC"},{"name": "Mongolia","dial_code": "+976","code": "MN"},{"name": "Montenegro","dial_code": "+382","code": "ME"},{"name": "Montserrat","dial_code": "+1664","code": "MS"},{"name": "Morocco","dial_code": "+212","code": "MA"},{"name": "Mozambique","dial_code": "+258","code": "MZ"},{"name": "Myanmar","dial_code": "+95","code": "MM"},{"name": "Namibia","dial_code": "+264","code": "NA"},{"name": "Nauru","dial_code": "+674","code": "NR"},{"name": "Nepal","dial_code": "+977","code": "NP"},{"name": "Netherlands Antilles","dial_code": "+599","code": "AN"},{"name": "New Caledonia","dial_code": "+687","code": "NC"},{"name": "Nicaragua","dial_code": "+505","code": "NI"},{"name": "Niger","dial_code": "+227","code": "NE"},{"name": "Nigeria","dial_code": "+234","code": "NG"},{"name": "Niue","dial_code": "+683","code": "NU"},{"name": "Norfolk Island","dial_code": "+672","code": "NF"},{"name": "Northern Mariana Islands","dial_code": "+1670","code": "MP"},{"name": "Pakistan","dial_code": "+92","code": "PK"},{"name": "Palau","dial_code": "+680","code": "PW"},{"name": "Palestinian Territory, Occupied","dial_code": "+970","code": "PS"},{"name": "Panama","dial_code": "+507","code": "PA"},{"name": "Papua New Guinea","dial_code": "+675","code": "PG"},{"name": "Paraguay","dial_code": "+595","code": "PY"},{"name": "Peru","dial_code": "+51","code": "PE"},{"name": "Philippines","dial_code": "+63","code": "PH"},{"name": "Pitcairn","dial_code": "+872","code": "PN"},{"name": "Poland","dial_code": "+48","code": "PL"},{"name": "Portugal","dial_code": "+351","code": "PT"},{"name": "Puerto Rico","dial_code": "+1939","code": "PR"},{"name": "Romania","dial_code": "+40","code": "RO"},{"name": "Russia","dial_code": "+7","code": "RU"},{"name": "Rwanda","dial_code": "+250","code": "RW"},{"name": "Reunion","dial_code": "+262","code": "RE"},{"name": "Saint Barthelemy","dial_code": "+590","code": "BL"},{"name": "Saint Helena, Ascension and Tristan Da Cunha","dial_code": "+290","code": "SH"},{"name": "Saint Kitts and Nevis","dial_code": "+1869","code": "KN"},{"name": "Saint Lucia","dial_code": "+1758","code": "LC"},{"name": "Saint Martin","dial_code": "+590","code": "MF"},{"name": "Saint Pierre and Miquelon","dial_code": "+508","code": "PM"},{"name": "Saint Vincent and the Grenadines","dial_code": "+1784","code": "VC"},{"name": "Samoa","dial_code": "+685","code": "WS"},{"name": "San Marino","dial_code": "+378","code": "SM"},{"name": "Sao Tome and Principe","dial_code": "+239","code": "ST"},{"name": "Senegal","dial_code": "+221","code": "SN"},{"name": "Serbia","dial_code": "+381","code": "RS"},{"name": "Seychelles","dial_code": "+248","code": "SC"},{"name": "Sierra Leone","dial_code": "+232","code": "SL"},{"name": "Slovakia","dial_code": "+421","code": "SK"},{"name": "Slovenia","dial_code": "+386","code": "SI"},{"name": "Solomon Islands","dial_code": "+677","code": "SB"},{"name": "Somalia","dial_code": "+252","code": "SO"},{"name": "South Sudan","dial_code": "+211","code": "SS"},{"name": "South Georgia and the South Sandwich Islands","dial_code": "+500","code": "GS"},{"name": "Sri Lanka","dial_code": "+94","code": "LK"},{"name": "Sudan","dial_code": "+249","code": "SD"},{"name": "Suriname","dial_code": "+597","code": "SR"},{"name": "Svalbard and Jan Mayen","dial_code": "+47","code": "SJ"},{"name": "Swaziland","dial_code": "+268","code": "SZ"},{"name": "Syrian Arab Republic","dial_code": "+963","code": "SY"},{"name": "Taiwan","dial_code": "+886","code": "TW"},{"name": "Tajikistan","dial_code": "+992","code": "TJ"},{"name": "Tanzania, United Republic of Tanzania","dial_code": "+255","code": "TZ"},{"name": "Thailand","dial_code": "+66","code": "TH"},{"name": "Timor-Leste","dial_code": "+670","code": "TL"},{"name": "Togo","dial_code": "+228","code": "TG"},{"name": "Tokelau","dial_code": "+690","code": "TK"},{"name": "Tonga","dial_code": "+676","code": "TO"},{"name": "Trinidad and Tobago","dial_code": "+1868","code": "TT"},{"name": "Tunisia","dial_code": "+216","code": "TN"},{"name": "Turkey","dial_code": "+90","code": "TR"},{"name": "Turkmenistan","dial_code": "+993","code": "TM"},{"name": "Turks and Caicos Islands","dial_code": "+1649","code": "TC"},{"name": "Tuvalu","dial_code": "+688","code": "TV"},{"name": "Uganda","dial_code": "+256","code": "UG"},{"name": "Ukraine","dial_code": "+380","code": "UA"},{"name": "Uruguay","dial_code": "+598","code": "UY"},{"name": "Uzbekistan","dial_code": "+998","code": "UZ"},{"name": "Vanuatu","dial_code": "+678","code": "VU"},{"name": "Venezuela, Bolivarian Republic of Venezuela","dial_code": "+58","code": "VE"},{"name": "Vietnam","dial_code": "+84","code": "VN"},{"name": "Virgin Islands, British","dial_code": "+1284","code": "VG"},{"name": "Virgin Islands, U.S.","dial_code": "+1340","code": "VI"},{"name": "Wallis and Futuna","dial_code": "+681","code": "WF"},{"name": "Yemen","dial_code": "+967","code": "YE"},{"name": "Zambia","dial_code": "+260","code": "ZM"},{"name": "Zimbabwe","dial_code": "+263","code": "ZW"}];
+
+    var options = "";
+
+    $.each(datajson, function (index, value) {
+        //$('span.prefix').text(value.dial_code);
+        options += "<option data-index=" + index + ' value="' + value.code + '" data-phone-code="' + value.dial_code + '" data-country-id="' + index + '" data-country-name="' + value.name + '">' + value.code + '&emsp;&emsp; - &emsp;&emsp;' + value.name + '</option>';
+    });
+
+    $('.country-code-new').html(options);
+
+    $(".country-code-new").on('change', function () {
+        var phonecode = $(this).find(':selected').data('phone-code');
+        $(this).closest('.phonecode-field').find('span.prefix-new').text(phonecode);
+
+        var iso = $(this).val().toLowerCase();
+        if(iso == 'gb') {
+            iso = 'uk';
+        }
+        if(iso == 'cn') {
+            iso = 'zh';
+        }
+        $(this).closest('form').find('input[name=countryCode]').val(iso);
+    });
+    $('input.telephone').on('focusout', function() { // combining phone code and number
+
+        var prefix = $(this).closest('.phonecode-field').find('span.prefix-new').text();
+        var data = $(this).val();
+        if(data.startsWith('0')) {
+            data = data.substring(1,data.length);
+        }
+        var number = prefix + data;
+
+        $('input.phonenumber').val(number);
+
+    });
+    //end phone code
+
+
+    $('.fundingTypeEnqBlog').on("click", function () { // click on funding type
+
+        if($(this).val()  == 1) { // company funded
+            $('.form-blogcontent .companyNameEnq').hide();
+            $('.form-blogcontent .companyEnq').hide();
+
+            $(this).parent('label').addClass("select-active");
+
+            $('.form-blogcontent #emailLabelSpan').html("COMPANY EMAIL");
+            $('.form-blogcontent #emailEnqBlog').attr("placeholder","me@company.com");
+        } else if($(this).val()  == 2) { // self funder
+            $('.form-blogcontent .companyNameEnq').val("");
+            $('.form-blogcontent #companyEnq').val("");
+
+            $('.form-blogcontent #emailLabelSpan').html("EMAIL");
+            $('.form-blogcontent #emailEnqBlog').attr("placeholder","me@gmail.com");
+
+            $('.form-blogcontent .companyNameEnq').hide();
+            $('.form-blogcontent .companyEnq').hide();
+
+            $(this).parent('label').addClass("select-active");
+        } else if($(this).val()  == 3) { // Not sure
+            $('.form-blogcontent .companyNameEnq').val("");
+            $('.form-blogcontent #companyEnq').val("");
+
+            $('.form-blogcontent #emailLabelSpan').html("COMPANY EMAIL");
+            $('.form-blogcontent #emailEnqBlog').attr("placeholder","me@company.com");
+
+            $('.form-blogcontent .companyNameEnq').hide();
+            $('.form-blogcontent .companyEnq').hide();
+
+            $(this).parent('label').addClass("select-active");
+        }
+    });
+
+
+        $('#enq-form-blog').on('submit', function () {
+
+            $('.error').hide();
+
+            $('#countryPhoneCode').val($('#prefix').html()); // getting phone prefix
+
+            var re = /[A-Z0-9._%+-]+@[A-Z0-9.-]+.[A-Z]{2,4}/igm;
+
+            if ($('#nameEnqNews').val() == "") {
+
+                $('.nameEnqBlogError').show();
+                return false;
+            }
+            if ($('#emailEnqNews').val() == "" || !re.test($('#emailEnqNews').val()) || $('#emailEnqNews').hasClass('invalid-email')) {
+                $('.emailEnqBlogError').show();
+                return false;
+            }
+
+            if ($('#countryCodeEnqNews').val() == "" || $('#countryCodeEnqNews').val() == "..." ) {
+                $('.mobileEnqBlogError').show();
+                return false;
+            }
+
+            if ($('#mobileEnqNews').val() == "" || !$.isNumeric($('#mobileEnqNews').val()) || $('#mobileEnqNews').val().length < 5) {
+                $('.mobileEnqBlogError').show();
+                return false;
+            }
+
+            if($('#companyEnqBlog').is(':visible')) { // check if company funded
+                if ($('#companyEnqBlog').val() == "" || !is_url($('#companyEnqBlog').val())) {
+                    $('.companyEnqBlogError').show();
+                    return false;
+                }
+            }
+
+            var formSerialize = $('form#enq-form-blog').serialize();
+
+            var countryCode = $('#countryCodeEnqNews').val();
+
+            $('.blogEngSend').hide();
+
+            $.ajax({
+                type: 'POST',
+                dataType: 'json',
+                data: formSerialize,
+                url: ROOT + '/admin/ajax/enquiry/saveEnquiry.php',
+                success: function (data) {
+                    if(data.save == 1) {
+                        $('#enq-form-blog')[0].reset();
+                        $('#enq-form-blog input[type=hidden]').val('');
+                        $('#enq-form-blog .blogEngSend').show();
+                        //$(".thanks-message-contact").css("display", "flex");
+
+                        if(countryCode != 'uk') {
+                            var url = ROOT + '/' + countryCode +'/thank-you/?e='+data.email;
+                        } else {
+                            var url = ROOT + '/thank-you/?e='+data.email;
+                        }
+
+                        setTimeout(function () {
+                            window.location.href = url;
+                        }, 1000);
+
+
+                    } else {
+                        $('.blogEngSend').show();
+                    }
+                }
+            });
+        });
+
+
+
+
+
+</script>
