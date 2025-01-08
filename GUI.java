@@ -51,7 +51,9 @@ public class GUI implements ActionListener{
 
     //web scraper
     Function_WebScraper ws = new Function_WebScraper(this);
-    JMenuItem iSIBA, iTimes;
+    JMenuItem iTitle, iLinks;
+
+    
 
 
 
@@ -249,21 +251,23 @@ public class GUI implements ActionListener{
    }
 
    public void createWebScraperMenu(){
-    iSIBA = new JMenuItem("SIBA Links");
-    iSIBA.addActionListener(this);
-    iSIBA.setActionCommand("SIBA Links");
-    menuWebScraper.add(iSIBA);
+    
+    iTitle = new JMenuItem("Title");
+    iTitle.addActionListener(this);
+    iTitle.setActionCommand("Title");
+    menuWebScraper.add(iTitle);
 
-    iTimes = new JMenuItem("Python Learning Links");
-    iTimes.addActionListener(this);
-    iTimes.setActionCommand("Python Learning Links");
-    menuWebScraper.add(iTimes);
+    iLinks = new JMenuItem("Links");
+    iLinks.addActionListener(this);
+    iLinks.setActionCommand("Links");
+    menuWebScraper.add(iLinks);
 
 
    }
 
    @Override
     public void actionPerformed(ActionEvent e) {
+        String url = textArea.getText();
         String command = e.getActionCommand();
 
         switch (command){
@@ -351,12 +355,12 @@ public class GUI implements ActionListener{
             edit.redo();
             break;
 
-            case "SIBA Links":
-            ws.SIBALinks();
+            case "Links":
+            ws.links(url);
             break;
 
-            case "Python Learning Links":
-            ws.pythonLinks();
+            case "Title":
+            ws.title(url);
             break;
 
      }
